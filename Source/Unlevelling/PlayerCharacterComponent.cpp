@@ -28,18 +28,43 @@ void UPlayerCharacterComponent::BeginPlay() {
 // Called every frame
 void UPlayerCharacterComponent::TickComponent( float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction ) {
 	Super::TickComponent( DeltaTime, TickType, ThisTickFunction );
-
-	// ...
+	ACharacter* ownerCharacter = Cast<ACharacter>(GetOwner());
+	const USkeletalMeshSocket* Hand_R_Socket = ownerCharacter->GetMesh()->GetSocketByName(FName("Hand_R"));
+	if (Hand_R_Socket) {
+		UE_LOG(LogTemp, Warning, TEXT("Found Hand_R_Socket"));
+		FHitResult HitResult;
+		FCollisionQueryParams CollisionQueryParams;
+		FCollisionObjectQueryParams CollisionObjectsQueryParams;
+		FVector SocketLocation;
+		FQuat SocketRotation;
+		ownerCharacter->GetMesh()->GetSocketWorldLocationAndRotation(FName("Hand_R"), SocketLocation, SocketRotation);
+		/*DrawDebugLine(GetWorld(), Hand_R_Socket->GetSocketLocation(ownerCharacter->GetMesh()),
+			Hand_R_Socket->GetSocketLocation(ownerCharacter->GetMesh())+ownerCharacter->GetMesh()->GetUpVector()*100,
+			FColor(255,0,0), false,-1.f,(uint8)'\000',5.f);*/
+		DrawDebugLine(GetWorld(), SocketLocation,
+			SocketLocation + SocketRotation.GetUpVector()*100,
+			FColor(255, 0, 0), false, -1.f, (uint8)'\000', 5.f);
+		CollisionQueryParams.AddIgnoredActor(ownerCharacter);
+	}
+	
 }
 
 void UPlayerCharacterComponent::SetupPlayerInputComponent() {
 	ACharacter* ownerCharacter = Cast<ACharacter>(GetOwner());
 	UInputComponent * PlayerInputComponent = ownerCharacter->InputComponent;
 	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &UPlayerCharacterComponent::Attack);
+	PlayerInputComponent->BindAction("Attack", IE_Released, this, &UPlayerCharacterComponent::StopAttackAnimation);
+
 }
 
 void UPlayerCharacterComponent::Attack() {
 	bAttackStarted = true;
 	UE_LOG(LogTemp, Warning, TEXT("Attacked!"));
+	GetWorld()->GetTimerManager().SetTimer(AttackTimerHandle, this, &UPlayerCharacterComponent::StopAttackAnimation, 0.1f);
+}
+
+void UPlayerCharacterComponent::StopAttackAnimation() {
+	bAttackStarted = false;
+	UE_LOG(LogTemp, Warning, TEXT("Attack Ended!"));
 }
 

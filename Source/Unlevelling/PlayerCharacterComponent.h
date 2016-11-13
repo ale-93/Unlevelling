@@ -27,6 +27,8 @@ public:
 	UPROPERTY(BlueprintReadWrite, Category = AnimationState)
 	bool bAttackStarted;
 
-		
+	FTimerHandle AttackTimerHandle;
+
+	void StopAttackAnimation();
 	
 };
