@@ -50,15 +50,18 @@ void UPlayerCharacterComponent::TickComponent( float DeltaTime, ELevelTick TickT
 
 		bool HitSuccess = GetWorld()->LineTraceMultiByObjectType(HitResults, SocketLocation, SocketRotation.GetUpVector() * 100, CollisionObjectsQueryParams, CollisionQueryParams);
 		if (HitSuccess) {
-			USkeletalMeshComponent* ActorSkeletalMesh = Cast<USkeletalMeshComponent>(HitResults[0].GetComponent());
-			if (ActorSkeletalMesh) {
-				AEnemyCharacter* EnemyCharacter = Cast<AEnemyCharacter>(HitResults[0].GetActor());
-				UE_LOG(LogTemp, Warning, TEXT("Hit %s"), *HitResults[0].GetComponent()->GetName());
-				if (EnemyCharacter) {
-					UE_LOG(LogTemp, Warning, TEXT("Hit %s"), *HitResults[0].GetActor()->GetName());
+			for (auto hit : HitResults) {
+				USkeletalMeshComponent* ActorSkeletalMesh = Cast<USkeletalMeshComponent>(hit.GetComponent());
+				if (ActorSkeletalMesh) {
+					AEnemyCharacter* EnemyCharacter = Cast<AEnemyCharacter>(hit.GetActor());
+					UE_LOG(LogTemp, Warning, TEXT("Hit %s"), *hit.GetComponent()->GetName());
+					if (EnemyCharacter) {
+						UE_LOG(LogTemp, Warning, TEXT("Hit %s"), *hit.GetActor()->GetName());
 
+					}
 				}
 			}
+
 		}
 	}
 	

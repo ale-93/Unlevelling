@@ -3,6 +3,7 @@
 #pragma once
 
 #include "GameFramework/Character.h"
+#include "Perception/PawnSensingComponent.h"
 #include "EnemyCharacter.generated.h"
 
 UCLASS()
@@ -23,6 +24,25 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
-	
-	
+	// Sensing function that will be executed when we sense a Pawn
+	UFUNCTION()
+	void OnPawnSensed(APawn* PawnInstigator);
+
+	// A Pawn Sensing Component, responsible for sensing other Pawns
+	UPROPERTY(VisibleAnywhere)
+	UPawnSensingComponent* PawnSensingComp;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category= Behavior)
+	class UBehaviorTree* EnemyBehavior;
+
+	void SearchForTarget();
+
+	void Move();
+
+	void Attack();
+
+protected:
+	bool bRangedAttack;
+
+	float TargetDistance;
 };
