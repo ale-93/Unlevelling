@@ -2,6 +2,7 @@
 
 #include "Unlevelling.h"
 #include "PlayerCharacterComponent.h"
+#include "EnemyCharacter.h"
 
 // Sets default values for this component's properties
 UPlayerCharacterComponent::UPlayerCharacterComponent() {
@@ -31,8 +32,8 @@ void UPlayerCharacterComponent::TickComponent( float DeltaTime, ELevelTick TickT
 	ACharacter* ownerCharacter = Cast<ACharacter>(GetOwner());
 	const USkeletalMeshSocket* Hand_R_Socket = ownerCharacter->GetMesh()->GetSocketByName(FName("Hand_R"));
 	if (Hand_R_Socket) {
-		UE_LOG(LogTemp, Warning, TEXT("Found Hand_R_Socket"));
-		FHitResult HitResult;
+		//UE_LOG(LogTemp, Warning, TEXT("Found Hand_R_Socket"));
+		TArray<FHitResult> HitResults;
 		FCollisionQueryParams CollisionQueryParams;
 		FCollisionObjectQueryParams CollisionObjectsQueryParams;
 		FVector SocketLocation;
@@ -44,7 +45,21 @@ void UPlayerCharacterComponent::TickComponent( float DeltaTime, ELevelTick TickT
 		DrawDebugLine(GetWorld(), SocketLocation,
 			SocketLocation + SocketRotation.GetUpVector()*100,
 			FColor(255, 0, 0), false, -1.f, (uint8)'\000', 5.f);
-		CollisionQueryParams.AddIgnoredActor(ownerCharacter);
+		
+		CollisionQueryParams.AddIgnoredActor(GetOwner());
+
+		bool HitSuccess = GetWorld()->LineTraceMultiByObjectType(HitResults, SocketLocation, SocketRotation.GetUpVector() * 100, CollisionObjectsQueryParams, CollisionQueryParams);
+		if (HitSuccess) {
+			USkeletalMeshComponent* ActorSkeletalMesh = Cast<USkeletalMeshComponent>(HitResults[0].GetComponent());
+			if (ActorSkeletalMesh) {
+				AEnemyCharacter* EnemyCharacter = Cast<AEnemyCharacter>(HitResults[0].GetActor());
+				UE_LOG(LogTemp, Warning, TEXT("Hit %s"), *HitResults[0].GetComponent()->GetName());
+				if (EnemyCharacter) {
+					UE_LOG(LogTemp, Warning, TEXT("Hit %s"), *HitResults[0].GetActor()->GetName());
+
+				}
+			}
+		}
 	}
 	
 }
