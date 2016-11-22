@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.13",
+	"EngineAssociation": "4.14",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -10,8 +10,8 @@
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"Engine",
-        "AIModule",
-        "GameplayTasks"
+				"AIModule",
+				"GameplayTasks"
 			]
 		}
 	]

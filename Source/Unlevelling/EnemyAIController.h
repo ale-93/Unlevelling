@@ -26,7 +26,7 @@ public:
 	virtual void Possess(APawn *InPawn) override;
 
 	uint8 EnemyKeyID;
-	uint8 TargetKey;
+	FBlackboard::FKey TargetKey;
 
 	// Sets the new sensed target value inside our Blackboard values
 	void SetSensedTarget(APawn* NewTarget);
