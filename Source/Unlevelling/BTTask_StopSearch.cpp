@@ -13,17 +13,30 @@
 EBTNodeResult::Type UBTTask_StopSearch::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) {
 	AEnemyAIController * EnemyAIController = Cast<AEnemyAIController>(OwnerComp.GetAIOwner());
 	ACharacter *Player = Cast<ACharacter>(OwnerComp.GetBlackboardComponent()->GetValue<UBlackboardKeyType_Object>(EnemyAIController->TargetKey));
+	AEnemyCharacter* EnemyCharacter = Cast<AEnemyCharacter>(EnemyAIController->GetCharacter());
+	UPawnSensingComponent* PawnSensingComponent = Cast<UPawnSensingComponent>(EnemyCharacter->GetComponentByClass(UPawnSensingComponent::StaticClass()));
 	
-	if (Player) {
-		GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Green, "Here!");
+	if (Player && EnemyAIController && EnemyCharacter && PawnSensingComponent) {
+		GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "Here!");
 		if (EnemyAIController) {
 			float distance;
-			if (Player) {
-				distance = EnemyAIController->GetOwner()->GetDistanceTo(Player);
-				if (distance > 0.1f)
+			if (Player && PawnSensingComponent) {
+				distance = EnemyCharacter->GetDistanceTo(Player);
+				GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "Distance Found");
+				FHitResult Hit;
+				FVector EyeLocation;
+				FRotator EyeRotation;
+				ECollisionChannel Channel = ECollisionChannel::ECC_Visibility;
+				EnemyCharacter->GetActorEyesViewPoint(EyeLocation, EyeRotation);
+				GetWorld()->LineTraceSingleByChannel(Hit, EyeLocation, Player->GetActorLocation(), Channel);
+				if (distance > PawnSensingComponent->SightRadius)
 				{
+					if(Hit.GetActor())
+						UE_LOG(LogTemp, Warning, TEXT("Attacking %s"), *(Hit.GetActor()->GetName()));
+
+					GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "Stop Movement!");
+					OwnerComp.GetBlackboardComponent()->SetValue<UBlackboardKeyType_Object>(EnemyAIController->TargetKey, nullptr);
 					EnemyAIController->StopMovement();
-					GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "Search Stopped!");
 					return EBTNodeResult::Succeeded;
 				}
 			}
