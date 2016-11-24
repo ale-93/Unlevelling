@@ -17,7 +17,7 @@ EBTNodeResult::Type UBTTask_MoveToPlayer::ExecuteTask(UBehaviorTreeComponent& Ow
 	UCharacterMovementComponent* MovementComponent = Player->GetCharacterMovement();
 
 	if (Player) {
-		EnemyAIController->MoveToActor(Player, 5.f, true, true, true, 0, true);
+		EnemyAIController->MoveToActor(Player, -1.f, true, true, true, 0, true);
 		return EBTNodeResult::Succeeded;
 	}
 	return::EBTNodeResult::Failed;
