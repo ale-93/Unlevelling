@@ -28,7 +28,7 @@ void UPlayerCharacterComponent::BeginPlay() {
 
 // Called every frame
 void UPlayerCharacterComponent::TickComponent( float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction ) {
-	Super::TickComponent( DeltaTime, TickType, ThisTickFunction );
+	/*Super::TickComponent( DeltaTime, TickType, ThisTickFunction );
 	ACharacter* ownerCharacter = Cast<ACharacter>(GetOwner());
 	const USkeletalMeshSocket* Hand_R_Socket = ownerCharacter->GetMesh()->GetSocketByName(FName("Hand_R"));
 	if (Hand_R_Socket) {
@@ -38,11 +38,11 @@ void UPlayerCharacterComponent::TickComponent( float DeltaTime, ELevelTick TickT
 		FCollisionObjectQueryParams CollisionObjectsQueryParams;
 		FVector SocketLocation;
 		FQuat SocketRotation;
-		ownerCharacter->GetMesh()->GetSocketWorldLocationAndRotation(FName("Hand_R"), SocketLocation, SocketRotation);
+		ownerCharacter->GetMesh()->GetSocketWorldLocationAndRotation(FName("Hand_R"), SocketLocation, SocketRotation);*/
 		/*DrawDebugLine(GetWorld(), Hand_R_Socket->GetSocketLocation(ownerCharacter->GetMesh()),
 			Hand_R_Socket->GetSocketLocation(ownerCharacter->GetMesh())+ownerCharacter->GetMesh()->GetUpVector()*100,
 			FColor(255,0,0), false,-1.f,(uint8)'\000',5.f);*/
-		DrawDebugLine(GetWorld(), SocketLocation,
+		/*DrawDebugLine(GetWorld(), SocketLocation,
 			SocketLocation + SocketRotation.GetUpVector()*100,
 			FColor(255, 0, 0), false, -1.f, (uint8)'\000', 5.f);
 		
@@ -63,7 +63,7 @@ void UPlayerCharacterComponent::TickComponent( float DeltaTime, ELevelTick TickT
 			}
 
 		}
-	}
+	}*/
 	
 }
 
