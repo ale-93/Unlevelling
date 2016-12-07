@@ -26,9 +26,15 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, Category = AnimationState)
 	bool bAttackStarted;
+	UPROPERTY(BlueprintReadWrite, Category = AnimationState)
+	bool bAnimAttackStarted;
 
 	FTimerHandle AttackTimerHandle;
 
+	FTimerHandle AnimTimerHandle;
+
 	void StopAttackAnimation();
+
+	void StopAnimAttackAnimation();
 	
 };

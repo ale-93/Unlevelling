@@ -11,6 +11,7 @@ UPlayerCharacterComponent::UPlayerCharacterComponent() {
 	bWantsBeginPlay = true;
 	PrimaryComponentTick.bCanEverTick = true;
 	bAttackStarted = false;
+	bAnimAttackStarted = false;
 
 	// ...
 }
@@ -71,14 +72,18 @@ void UPlayerCharacterComponent::SetupPlayerInputComponent() {
 	ACharacter* ownerCharacter = Cast<ACharacter>(GetOwner());
 	UInputComponent * PlayerInputComponent = ownerCharacter->InputComponent;
 	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &UPlayerCharacterComponent::Attack);
-	PlayerInputComponent->BindAction("Attack", IE_Released, this, &UPlayerCharacterComponent::StopAttackAnimation);
+	//PlayerInputComponent->BindAction("Attack", IE_Released, this, &UPlayerCharacterComponent::StopAttackAnimation);
 
 }
 
 void UPlayerCharacterComponent::Attack() {
-	bAttackStarted = true;
-	UE_LOG(LogTemp, Warning, TEXT("Attacked!"));
-	GetWorld()->GetTimerManager().SetTimer(AttackTimerHandle, this, &UPlayerCharacterComponent::StopAttackAnimation, 0.1f);
+	if (!bAttackStarted) {
+		bAttackStarted = true;
+		bAnimAttackStarted = true;
+		UE_LOG(LogTemp, Warning, TEXT("Attacked!"));
+		GetWorld()->GetTimerManager().SetTimer(AnimTimerHandle, this, &UPlayerCharacterComponent::StopAnimAttackAnimation, 0.1f);
+		GetWorld()->GetTimerManager().SetTimer(AttackTimerHandle, this, &UPlayerCharacterComponent::StopAttackAnimation, 1.0f);
+	}
 }
 
 void UPlayerCharacterComponent::StopAttackAnimation() {
@@ -86,3 +91,7 @@ void UPlayerCharacterComponent::StopAttackAnimation() {
 	UE_LOG(LogTemp, Warning, TEXT("Attack Ended!"));
 }
 
+void UPlayerCharacterComponent::StopAnimAttackAnimation() {
+	bAnimAttackStarted = false;
+	UE_LOG(LogTemp, Warning, TEXT("Attack Ended!"));
+}
