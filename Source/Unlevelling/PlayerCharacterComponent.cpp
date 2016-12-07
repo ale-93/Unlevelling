@@ -88,6 +88,7 @@ void UPlayerCharacterComponent::Attack() {
 
 void UPlayerCharacterComponent::StopAttackAnimation() {
 	bAttackStarted = false;
+	ResetTarget.Broadcast();
 	UE_LOG(LogTemp, Warning, TEXT("Attack Ended!"));
 }
 

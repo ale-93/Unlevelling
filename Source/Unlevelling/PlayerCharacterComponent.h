@@ -5,6 +5,7 @@
 #include "Components/ActorComponent.h"
 #include "PlayerCharacterComponent.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FResetTarget);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class UNLEVELLING_API UPlayerCharacterComponent : public UActorComponent
@@ -36,5 +37,8 @@ public:
 	void StopAttackAnimation();
 
 	void StopAnimAttackAnimation();
+
+	UPROPERTY(BlueprintAssignable)
+		FResetTarget ResetTarget;
 	
 };
