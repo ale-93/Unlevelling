@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>H:\WWise Projects\Unleveling\</ProjectRoot>
+		<SourceFilesRoot>H:\WWise Projects\Unleveling\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>H:\UE4 Projects\Unlevelling-master\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>H:\WWise Projects\Unleveling\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="85412153" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
+			<ShortName>Ambience</ShortName>
+			<Path>Ambience.bnk</Path>
+			<IncludedEvents>
+				<Event Id="140579756" Name="Ambience_Music_Start" ObjectPath="\Events\Default Work Unit\Ambience\Ambience_Music_Start"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="84220729" Language="SFX">
+					<ShortName>Unleveling Score.wav</ShortName>
+					<Path>SFX\Unleveling Score_3505CE2F.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1069431850" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
+			<ShortName>Player</ShortName>
+			<Path>Player.bnk</Path>
+			<IncludedEvents>
+				<Event Id="569059386" Name="Footsteps_Sound" ObjectPath="\Events\Default Work Unit\Player\Animation\Movement\Footsteps_Sound"/>
+				<Event Id="2477428053" Name="Greatsword_Hit_Sound" ObjectPath="\Events\Default Work Unit\Player\Weapon\Greatsword_Hit_Sound"/>
+				<Event Id="2948466998" Name="Greatsword_Miss_Sound" ObjectPath="\Events\Default Work Unit\Player\Weapon\Greatsword_Miss_Sound"/>
+				<Event Id="91396763" Name="Jump_End_Sound" ObjectPath="\Events\Default Work Unit\Player\Animation\Jump\Jump_End_Sound"/>
+				<Event Id="360162196" Name="Jump_Start_Sound" ObjectPath="\Events\Default Work Unit\Player\Animation\Jump\Jump_Start_Sound"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="43364545" Language="SFX">
+					<ShortName>FTSP DG 3.wav</ShortName>
+					<Path>SFX\FTSP DG 3_5BC9E8DB.wem</Path>
+				</File>
+				<File Id="56625941" Language="SFX">
+					<ShortName>Jump_Feet.wav</ShortName>
+					<Path>SFX\Jump_Feet_DEFFE894.wem</Path>
+				</File>
+				<File Id="214724033" Language="SFX">
+					<ShortName>FTSP DG 7.wav</ShortName>
+					<Path>SFX\FTSP DG 7_FA7CBA88.wem</Path>
+				</File>
+				<File Id="380906366" Language="SFX">
+					<ShortName>FTSP DG 4.wav</ShortName>
+					<Path>SFX\FTSP DG 4_9E69E797.wem</Path>
+				</File>
+				<File Id="399908424" Language="SFX">
+					<ShortName>interaction_whoosh_medium_03.wav</ShortName>
+					<Path>SFX\interaction_whoosh_medium_03_9E69E797.wem</Path>
+				</File>
+				<File Id="407042502" Language="SFX">
+					<ShortName>Sword 1.wav</ShortName>
+					<Path>SFX\Sword 1_9E69E797.wem</Path>
+				</File>
+				<File Id="447891353" Language="SFX">
+					<ShortName>FTSP DG 6.wav</ShortName>
+					<Path>SFX\FTSP DG 6_B9D5DA87.wem</Path>
+				</File>
+				<File Id="588435546" Language="SFX">
+					<ShortName>FTSP DG 5.wav</ShortName>
+					<Path>SFX\FTSP DG 5_9963502E.wem</Path>
+				</File>
+				<File Id="617257510" Language="SFX">
+					<ShortName>FTSP DG 2.wav</ShortName>
+					<Path>SFX\FTSP DG 2_DD693588.wem</Path>
+				</File>
+				<File Id="1051392861" Language="SFX">
+					<ShortName>FTSP DG 1.wav</ShortName>
+					<Path>SFX\FTSP DG 1_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

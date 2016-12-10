@@ -48,6 +48,9 @@ Binaries/*
 # Builds
 Build/*
 
+# Plugins
+Plugins/*
+
 # Don't ignore icon files in Build
 !Build/**/*.ico
 

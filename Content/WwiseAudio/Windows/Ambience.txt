@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	140579756	Ambience_Music_Start			\Default Work Unit\Ambience_Music_Start	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	84220729	Unleveling Score	H:\WWise Projects\Unleveling\.cache\Windows\SFX\Unleveling Score_3505CE2F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Ambience\Unleveling Score		9805416
+

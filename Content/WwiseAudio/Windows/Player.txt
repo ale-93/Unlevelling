@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	91396763	Jump_End_Sound			\Default Work Unit\Player\Animation\Jump\Jump_End_Sound	
+	360162196	Jump_Start_Sound			\Default Work Unit\Player\Animation\Jump\Jump_Start_Sound	
+	569059386	Footsteps_Sound			\Default Work Unit\Player\Animation\Movement\Footsteps_Sound	
+	2477428053	Greatsword_Hit_Sound			\Default Work Unit\Player\Weapon\Greatsword_Hit_Sound	
+	2948466998	Greatsword_Miss_Sound			\Default Work Unit\Player\Weapon\Greatsword_Miss_Sound	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	43364545	Jump_End	H:\WWise Projects\Unleveling\.cache\Windows\SFX\FTSP DG 3_5BC9E8DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Jump\Jump_End		35364
+	56625941	Jump_Start	H:\WWise Projects\Unleveling\.cache\Windows\SFX\Jump_Feet_DEFFE894.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Jump\Jump_Start		41462
+	214724033	FTSP DG 7	H:\WWise Projects\Unleveling\.cache\Windows\SFX\FTSP DG 7_FA7CBA88.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\FTSP DG 7		35394
+	380906366	FTSP DG 4	H:\WWise Projects\Unleveling\.cache\Windows\SFX\FTSP DG 4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\FTSP DG 4		34480
+	399908424	Sword Miss	H:\WWise Projects\Unleveling\.cache\Windows\SFX\interaction_whoosh_medium_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Greatsword\Sword Miss		26368
+	407042502	Sword Hit	H:\WWise Projects\Unleveling\.cache\Windows\SFX\Sword 1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Greatsword\Sword Hit		134628
+	447891353	FTSP DG 6	H:\WWise Projects\Unleveling\.cache\Windows\SFX\FTSP DG 6_B9D5DA87.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\FTSP DG 6		35350
+	588435546	FTSP DG 5	H:\WWise Projects\Unleveling\.cache\Windows\SFX\FTSP DG 5_9963502E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\FTSP DG 5		35292
+	617257510	FTSP DG 2	H:\WWise Projects\Unleveling\.cache\Windows\SFX\FTSP DG 2_DD693588.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\FTSP DG 2		35290
+	1051392861	FTSP DG 1	H:\WWise Projects\Unleveling\.cache\Windows\SFX\FTSP DG 1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\FTSP DG 1		34762
+
