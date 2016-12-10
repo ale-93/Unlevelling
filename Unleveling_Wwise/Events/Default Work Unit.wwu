@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3A082E3B-A683-4044-94FF-B7D1223CD340}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{3A082E3B-A683-4044-94FF-B7D1223CD340}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Ambience" ID="{725F563D-B902-4646-B24E-647D149DC387}" ShortID="1028524405">
+					<ChildrenList>
+						<Event Name="Ambience_Music_Start" ID="{93FAD5D8-93B6-497F-8FDF-9D1989BAB523}">
+							<ChildrenList>
+								<Action Name="Play" ID="{719B2012-8873-49DA-BE25-682796F5FE37}" ShortID="121064795" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{244909B8-E82D-4956-B4A9-7B8B18EAE91C}" Global="false">
+											<ObjectRef Name="Unleveling Score" ID="{D22B7FCF-8C65-47D0-9FBA-70DB337F50D5}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player" ID="{5392CF96-8CF8-4DC6-A3C9-48228C88C9B1}" ShortID="268031670">
+					<ChildrenList>
+						<Folder Name="Animation" ID="{BC0BB4C8-692F-494D-BD0E-8EE61220EE56}" ShortID="229700249">
+							<ChildrenList>
+								<Folder Name="Jump" ID="{3EAD7A6B-4D02-4C23-850F-65467020D070}" ShortID="393442603">
+									<ChildrenList>
+										<Event Name="Jump_Start_Sound" ID="{615CED09-4342-4ACA-8526-1D2D051CD9ED}">
+											<ChildrenList>
+												<Action Name="Play" ID="{4A01758E-367E-40CD-B29D-63A83E93B109}" ShortID="918170249" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{D980309F-EC61-459F-ADC8-A9B850E0343F}" Global="false">
+															<ObjectRef Name="Jump_Start" ID="{E1E87644-1082-46C4-B0F3-B0696361B98A}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Jump_End_Sound" ID="{8A82992C-02C1-4D2D-8F67-56AB56FD3645}">
+											<ChildrenList>
+												<Action Name="Play" ID="{541B28D3-A726-4685-98E6-81E327FB8509}" ShortID="919768620" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{EAB77760-FA88-43A0-AEF5-6AA71E1A9734}" Global="false">
+															<ObjectRef Name="Jump_End" ID="{5ED25CF1-473A-4DFB-94B3-4E7B2063BE62}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Movement" ID="{50F040C5-CEA0-45E3-988E-7ABA417A91B5}" ShortID="668974446">
+									<ChildrenList>
+										<Event Name="Footsteps_Sound" ID="{6C491A88-57DF-4268-9CAC-15DD261F30C4}">
+											<ChildrenList>
+												<Action Name="Play" ID="{C25D9395-E902-4A05-A473-833BFB0DB8A0}" ShortID="900651490" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{DDC199E6-88EE-4374-A469-6DB32A1826A1}" Global="false">
+															<ObjectRef Name="Footsteps" ID="{34D1B56E-8459-40F7-9B11-8AF20E42FF4F}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Weapon" ID="{7C39698A-5772-4A67-9C71-E94F88DD15F1}" ShortID="947426889">
+							<ChildrenList>
+								<Event Name="Greatsword_Hit_Sound" ID="{8A929121-339D-4538-BCEF-034B73C970AD}">
+									<ChildrenList>
+										<Action Name="Play" ID="{4DB170CF-3DD8-4EAF-8CCC-C9AC170F4CD1}" ShortID="772760387" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{A8450D74-EBF4-4F4C-B94A-3DAF910E0F93}" Global="false">
+													<ObjectRef Name="Sword Hit" ID="{738F81B5-82DA-48E0-A5D8-5F3DA4F53A48}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Greatsword_Miss_Sound" ID="{5997E446-B755-41AD-AF39-6773A30B70B0}">
+									<ChildrenList>
+										<Action Name="Play" ID="{D37D718C-D6D7-4D47-971D-E6132A19597C}" ShortID="892075198" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{B7486BA9-2059-4127-8647-9B7F4975168A}" Global="false">
+													<ObjectRef Name="Sword Miss" ID="{42E50504-FD50-4E63-B7A8-C1A5D18E2D84}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
