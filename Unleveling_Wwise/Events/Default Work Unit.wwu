@@ -16,6 +16,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Menu_Music" ID="{EB2D1DAF-1A2F-455F-9D8E-C2515CBFFE22}">
+							<ChildrenList>
+								<Action Name="Play" ID="{445A3BC2-CFCE-4C76-B4CF-285801F56C39}" ShortID="988825206" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{22F77201-B58B-4589-B132-065C1556E093}" Global="false">
+											<ObjectRef Name="Unleveling Menu Music" ID="{9187BD3F-33D3-46FA-84A4-D521066E4BAD}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{5392CF96-8CF8-4DC6-A3C9-48228C88C9B1}" ShortID="268031670">
