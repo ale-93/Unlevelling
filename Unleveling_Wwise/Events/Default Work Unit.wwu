@@ -10,7 +10,7 @@
 								<Action Name="Play" ID="{719B2012-8873-49DA-BE25-682796F5FE37}" ShortID="121064795" Type="Play" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{244909B8-E82D-4956-B4A9-7B8B18EAE91C}" Global="false">
-											<ObjectRef Name="Unleveling Score" ID="{D22B7FCF-8C65-47D0-9FBA-70DB337F50D5}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+											<ObjectRef Name="Epic Drums Loop" ID="{E95ADEB2-56B1-4A27-B244-AD0280CEC6C5}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
 										</Element>
 									</ElementList>
 								</Action>

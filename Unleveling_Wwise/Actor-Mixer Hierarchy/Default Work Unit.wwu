@@ -498,6 +498,11 @@
 											<PropertyList>
 												<Property Name="LoopEnd" Type="Real64" Value="55.5789342403628"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Unleveling Score.wav</AudioFile>
