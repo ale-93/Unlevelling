@@ -11,25 +11,13 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
-			<ShortName>Ambience</ShortName>
-			<Path>Ambience.bnk</Path>
-			<IncludedEvents>
-				<Event Id="140579756" Name="Ambience_Music_Start" ObjectPath="\Events\Default Work Unit\Ambience\Ambience_Music_Start"/>
-			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="84220729" Language="SFX">
-					<ShortName>Unleveling Score.wav</ShortName>
-					<Path>SFX\Unleveling Score_3505CE2F.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
-		</SoundBank>
 		<SoundBank Id="1069431850" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3877805888" Name="Fireball_Cast_Sound" ObjectPath="\Events\Default Work Unit\Player\Fireball\Fireball_Cast_Sound"/>
+				<Event Id="747939538" Name="Fireball_Explosion_Sound" ObjectPath="\Events\Default Work Unit\Player\Fireball\Fireball_Explosion_Sound"/>
 				<Event Id="569059386" Name="Footsteps_Sound" ObjectPath="\Events\Default Work Unit\Player\Animation\Movement\Footsteps_Sound"/>
 				<Event Id="2477428053" Name="Greatsword_Hit_Sound" ObjectPath="\Events\Default Work Unit\Player\Weapon\Greatsword_Hit_Sound"/>
 				<Event Id="2948466998" Name="Greatsword_Miss_Sound" ObjectPath="\Events\Default Work Unit\Player\Weapon\Greatsword_Miss_Sound"/>
@@ -49,6 +37,10 @@
 					<ShortName>FTSP DG 7.wav</ShortName>
 					<Path>SFX\FTSP DG 7_FA7CBA88.wem</Path>
 				</File>
+				<File Id="275099248" Language="SFX">
+					<ShortName>Fireball_Explosion_Sub.wav</ShortName>
+					<Path>SFX\Fireball_Explosion_Sub_6DB9D2A2.wem</Path>
+				</File>
 				<File Id="380906366" Language="SFX">
 					<ShortName>FTSP DG 4.wav</ShortName>
 					<Path>SFX\FTSP DG 4_9E69E797.wem</Path>
@@ -61,6 +53,10 @@
 					<ShortName>Sword 1.wav</ShortName>
 					<Path>SFX\Sword 1_9E69E797.wem</Path>
 				</File>
+				<File Id="445547432" Language="SFX">
+					<ShortName>Fireball_Explosion_Blast.wav</ShortName>
+					<Path>SFX\Fireball_Explosion_Blast_7E91D02C.wem</Path>
+				</File>
 				<File Id="447891353" Language="SFX">
 					<ShortName>FTSP DG 6.wav</ShortName>
 					<Path>SFX\FTSP DG 6_B9D5DA87.wem</Path>
@@ -72,6 +68,14 @@
 				<File Id="617257510" Language="SFX">
 					<ShortName>FTSP DG 2.wav</ShortName>
 					<Path>SFX\FTSP DG 2_DD693588.wem</Path>
+				</File>
+				<File Id="716578288" Language="SFX">
+					<ShortName>Fireball_Explosion.wav</ShortName>
+					<Path>SFX\Fireball_Explosion_08EB8803.wem</Path>
+				</File>
+				<File Id="818547509" Language="SFX">
+					<ShortName>Fireball_Start.wav</ShortName>
+					<Path>SFX\Fireball_Start_5A99E570.wem</Path>
 				</File>
 				<File Id="1051392861" Language="SFX">
 					<ShortName>FTSP DG 1.wav</ShortName>
