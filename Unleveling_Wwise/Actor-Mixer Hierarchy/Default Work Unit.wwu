@@ -63,6 +63,172 @@
 										</Sound>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="Fireball" ID="{5D945F6C-1BF2-4FFF-B546-DBE9D7C36BE6}" ShortID="908726660">
+									<ChildrenList>
+										<Sound Name="Fireball_Start" ID="{DA3A1339-4962-4D60-B156-37E1DA527F4E}" ShortID="691734544" Type="SoundFX">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C035D13B-4F93-43AB-9B10-F8D4A1856516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9F1107F-0DDE-4455-BD19-4692F27F38E5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fireball_Start" ID="{1429103A-ECB9-45CB-9830-F094A58ADFC2}" ShortID="818547509">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="1.73153040978296E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.23631271258503"/>
+														<Property Name="FadeOutShape" Type="int16" Value="1"/>
+														<Property Name="TrimBegin" Type="Real64" Value="6.23350947521864E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.48565309159378"/>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>-4.7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Fireball_Start.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{899DB344-CD47-4049-A453-D516E2CBC619}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Fireball_Start" ID="{1429103A-ECB9-45CB-9830-F094A58ADFC2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<BlendContainer Name="Fireball_Explosion" ID="{728FE383-802F-4C31-9A6C-6E92F083CBEB}" ShortID="849684453">
+											<PropertyList>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Fireball_Explosion" ID="{FC028D24-0E84-4EFD-8933-14609BE4AEE5}" WorkUnitID="{327E0A7C-B82D-4079-AAE8-569F6ACA69D8}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C035D13B-4F93-43AB-9B10-F8D4A1856516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9F1107F-0DDE-4455-BD19-4692F27F38E5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Fireball_Explosion_Sub" ID="{F4612257-234C-49A3-BAF9-2B740698E4E7}" ShortID="61129971" Type="SoundFX">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C035D13B-4F93-43AB-9B10-F8D4A1856516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9F1107F-0DDE-4455-BD19-4692F27F38E5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fireball_Explosion_Sub" ID="{49F20504-FDE7-49F4-913F-8962E3B812CC}" ShortID="275099248">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="4.38132032219611E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.27807301825239"/>
+																<Property Name="FadeOutShape" Type="int16" Value="2"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.80246229431523"/>
+																<Property Name="TrimEnd" Type="Real64" Value="3.08053531256762"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Fireball_Explosion_Sub.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fireball_Explosion_Sub" ID="{49F20504-FDE7-49F4-913F-8962E3B812CC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Fireball_Explosion" ID="{7D963129-45DA-4AFC-A095-1B654D06C2A4}" ShortID="409047794" Type="SoundFX">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C035D13B-4F93-43AB-9B10-F8D4A1856516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9F1107F-0DDE-4455-BD19-4692F27F38E5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fireball_Explosion" ID="{09E754EE-2B8B-4EEB-9970-79B654007E2C}" ShortID="716578288">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.101491675120633"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.15843069357164"/>
+																<Property Name="FadeOutShape" Type="int16" Value="2"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.6341343067863"/>
+																<Property Name="TrimEnd" Type="Real64" Value="3.79256500035793"/>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>-6.3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Fireball_Explosion.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fireball_Explosion" ID="{09E754EE-2B8B-4EEB-9970-79B654007E2C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Fireball_Explosion_Blast" ID="{8F76A226-2416-4AE5-A6A9-9ADD348D0E01}" ShortID="688960610" Type="SoundFX">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-31</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C035D13B-4F93-43AB-9B10-F8D4A1856516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9F1107F-0DDE-4455-BD19-4692F27F38E5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fireball_Explosion_Blast" ID="{B590B7D3-B703-47A8-9A04-74CD1015B0A1}" ShortID="445547432">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="9.42658983236151E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.74077692237609"/>
+																<Property Name="FadeOutShape" Type="int16" Value="2"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.74077692237609"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Fireball_Explosion_Blast.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fireball_Explosion_Blast" ID="{B590B7D3-B703-47A8-9A04-74CD1015B0A1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Movement" ID="{5338B309-0393-4449-9DB4-AB5B3B8156CF}" ShortID="508875779">
@@ -141,7 +307,6 @@
 													<PropertyList>
 														<Property Name="TrimEnd" Type="Real64" Value="0.400218658892128"/>
 													</PropertyList>
-													<ReferenceList/>
 													<Language>SFX</Language>
 													<AudioFile>FTSP DG 3.wav</AudioFile>
 													<ConvertedFileIDList>
@@ -451,6 +616,25 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="ui_wood_error" ID="{08BAF24A-C80C-433E-AB33-FE21DEBF65ED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Menu Hover" ID="{84885B50-674D-478F-8A84-1A5D0FB9C93F}" ShortID="219642863" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C035D13B-4F93-43AB-9B10-F8D4A1856516}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9F1107F-0DDE-4455-BD19-4692F27F38E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ui_scifi_hightech_close" ID="{645230C4-4108-495E-A897-1499124AE8D6}" ShortID="350784714">
+											<Language>SFX</Language>
+											<AudioFile>ui_scifi_hightech_close.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ui_scifi_hightech_close" ID="{645230C4-4108-495E-A897-1499124AE8D6}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

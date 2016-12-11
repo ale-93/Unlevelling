@@ -91,6 +91,32 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Fireball" ID="{F80C21FC-E79E-4C56-9FF8-EF92C9833AB8}" ShortID="550033901">
+							<ChildrenList>
+								<Event Name="Fireball_Cast_Sound" ID="{E5BB9A6F-F7E9-4CFC-8CEF-4896648F6EA5}">
+									<ChildrenList>
+										<Action Name="Play" ID="{EFA03EC2-90F5-431C-9210-8D255129463F}" ShortID="313945350" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{6581FD1C-8FC5-47F5-9F13-396015F0322C}" Global="false">
+													<ObjectRef Name="Fireball_Start" ID="{DA3A1339-4962-4D60-B156-37E1DA527F4E}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Fireball_Explosion_Sound" ID="{552BBE68-F841-4938-9D30-6F48EBF271FD}">
+									<ChildrenList>
+										<Action Name="Play" ID="{DDD70A5B-68B6-4B6A-ADA5-82D3F88D1E01}" ShortID="111312730" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{2C93CF7A-AF1A-45AD-ABE1-B8DAE664FE7A}" Global="false">
+													<ObjectRef Name="Fireball_Explosion" ID="{728FE383-802F-4C31-9A6C-6E92F083CBEB}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
