@@ -470,6 +470,118 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Hit" ID="{9F3EE066-D9CE-43C1-B126-B04C375C7193}" ShortID="525217071">
+							<ChildrenList>
+								<Sound Name="Player_Hit_Sound" ID="{AE601331-50B0-4BA9-B9A1-2C932939DF55}" ShortID="653375276" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C035D13B-4F93-43AB-9B10-F8D4A1856516}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9F1107F-0DDE-4455-BD19-4692F27F38E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Hit_Sound" ID="{6D57A2AD-BD20-4B11-8E54-E13853822A26}" ShortID="833082251">
+											<PropertyList>
+												<Property Name="TrimBegin" Type="Real64" Value="0.225292258388757"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.991911748739386"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-13.2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Sound Effects - Blood Gore Carnage and Tearing Flesh.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Hit_Sound" ID="{6D57A2AD-BD20-4B11-8E54-E13853822A26}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="PowerUp" ID="{EA7EE121-4277-4510-82CD-23CC22F72E52}" ShortID="809773819">
+							<ChildrenList>
+								<Sound Name="Dark Growl" ID="{19B61D9D-15C7-4787-B175-7B3B825740A8}" ShortID="38159213" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C035D13B-4F93-43AB-9B10-F8D4A1856516}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9F1107F-0DDE-4455-BD19-4692F27F38E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dark Growl" ID="{931B59AE-A860-4AAE-8890-7D15AB18E60F}" ShortID="929171571">
+											<Language>SFX</Language>
+											<AudioFile>Dark Growl.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dark Growl" ID="{931B59AE-A860-4AAE-8890-7D15AB18E60F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="I'm God" ID="{A15EA9D7-8217-40EA-A0CB-64F3EF64A664}" ShortID="451130034" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C035D13B-4F93-43AB-9B10-F8D4A1856516}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9F1107F-0DDE-4455-BD19-4692F27F38E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="I'm God" ID="{E836BBF0-4C1F-48D1-9511-08EB8771520A}" ShortID="354337673">
+											<Language>SFX</Language>
+											<AudioFile>I'm God.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="I'm God" ID="{E836BBF0-4C1F-48D1-9511-08EB8771520A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Inferno" ID="{4B80071D-2296-41FB-AF77-FA7AF2B53167}" ShortID="203418611" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C035D13B-4F93-43AB-9B10-F8D4A1856516}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9F1107F-0DDE-4455-BD19-4692F27F38E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Inferno" ID="{1D0BBCC1-A2B9-411C-A0C4-54FE442FE41A}" ShortID="800916686">
+											<Language>SFX</Language>
+											<AudioFile>Inferno.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Inferno" ID="{1D0BBCC1-A2B9-411C-A0C4-54FE442FE41A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Not Ready Yet" ID="{6B958A92-CFB7-4029-A476-F1A9410F2C79}" ShortID="184145745" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C035D13B-4F93-43AB-9B10-F8D4A1856516}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9F1107F-0DDE-4455-BD19-4692F27F38E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Not Ready Yet" ID="{0E0F4F93-8189-4DD7-A87A-471F008F2CC9}" ShortID="600108248">
+											<Language>SFX</Language>
+											<AudioFile>Not Ready Yet.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Not Ready Yet" ID="{0E0F4F93-8189-4DD7-A87A-471F008F2CC9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{CF334765-A529-433D-B5CF-ADAF679C9AB9}" ShortID="555108365">
@@ -575,111 +687,6 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Unleveling Menu Music" ID="{5188A6D8-C632-4A78-AA0B-2A52DDDA96DB}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</Folder>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="UI" ID="{BA473866-AAA0-4112-90DF-C541DEE3AAC2}" ShortID="134779034">
-					<ChildrenList>
-						<Folder Name="Menu" ID="{5194B397-1519-4695-854A-8FFDEBFDEF40}" ShortID="166869973">
-							<ChildrenList>
-								<Sound Name="Menù Indietro" ID="{A9E07ABA-2E9E-42FC-A402-DAC386304D4E}" ShortID="628083688" Type="SoundFX">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-8</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C035D13B-4F93-43AB-9B10-F8D4A1856516}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9F1107F-0DDE-4455-BD19-4692F27F38E5}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="ui_wood_back" ID="{941D00B1-C12A-4C40-AD3A-ED577A72EB10}" ShortID="1017047622">
-											<Language>SFX</Language>
-											<AudioFile>ui_wood_back.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="ui_wood_back" ID="{941D00B1-C12A-4C40-AD3A-ED577A72EB10}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Menù OK" ID="{FC938935-01AC-45B8-A177-F73D4C73803E}" ShortID="861869203" Type="SoundFX">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-8</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C035D13B-4F93-43AB-9B10-F8D4A1856516}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9F1107F-0DDE-4455-BD19-4692F27F38E5}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="ui_wood_confirm" ID="{9A2C16A5-FFDB-4098-8F5D-0260D73FF814}" ShortID="748181778">
-											<Language>SFX</Language>
-											<AudioFile>ui_wood_confirm.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="ui_wood_confirm" ID="{9A2C16A5-FFDB-4098-8F5D-0260D73FF814}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Menù Apertura" ID="{129CD21A-CEA8-41FA-9C33-20739F262FD9}" ShortID="104241667" Type="SoundFX">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-8</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C035D13B-4F93-43AB-9B10-F8D4A1856516}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9F1107F-0DDE-4455-BD19-4692F27F38E5}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="ui_wood_error" ID="{08BAF24A-C80C-433E-AB33-FE21DEBF65ED}" ShortID="587164182">
-											<Language>SFX</Language>
-											<AudioFile>ui_wood_error.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="ui_wood_error" ID="{08BAF24A-C80C-433E-AB33-FE21DEBF65ED}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Menu Hover" ID="{84885B50-674D-478F-8A84-1A5D0FB9C93F}" ShortID="219642863" Type="SoundFX">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C035D13B-4F93-43AB-9B10-F8D4A1856516}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9F1107F-0DDE-4455-BD19-4692F27F38E5}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="ui_scifi_hightech_close" ID="{645230C4-4108-495E-A897-1499124AE8D6}" ShortID="350784714">
-											<Language>SFX</Language>
-											<AudioFile>ui_scifi_hightech_close.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="ui_scifi_hightech_close" ID="{645230C4-4108-495E-A897-1499124AE8D6}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
