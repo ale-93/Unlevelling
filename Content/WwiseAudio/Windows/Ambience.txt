@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
-	140579756	Ambience_Music_Start			\Default Work Unit\Ambience_Music_Start	
+	140579756	Ambience_Music_Start			\Default Work Unit\Ambience\Ambience_Music_Start	
+	4055567060	Menu_Music			\Default Work Unit\Ambience\Menu_Music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	84220729	Unleveling Score	H:\WWise Projects\Unleveling\.cache\Windows\SFX\Unleveling Score_3505CE2F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Ambience\Unleveling Score		9805416
+	525152876	Epic Drums Loop	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\Epic Drums Loop_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Ambience\Epic Drums Loop		1785016
+	785431757	Unleveling Menu Music	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\Unleveling Menu Music_0039285B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Start Menu\Unleveling Menu Music		7369488
 

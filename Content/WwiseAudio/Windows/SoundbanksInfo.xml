@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>H:\WWise Projects\Unleveling\</ProjectRoot>
-		<SourceFilesRoot>H:\WWise Projects\Unleveling\.cache\Windows\</SourceFilesRoot>
+		<ProjectRoot>H:\WWise Projects\Unleveling_Wwise\</ProjectRoot>
+		<SourceFilesRoot>H:\WWise Projects\Unleveling_Wwise\.cache\Windows\</SourceFilesRoot>
 		<SoundBanksRoot>H:\UE4 Projects\Unlevelling-master\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>H:\WWise Projects\Unleveling\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>H:\WWise Projects\Unleveling_Wwise\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,13 +16,18 @@
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3352646037" Name="Berserk_Sound" ObjectPath="\Events\Default Work Unit\Player\PowerUps\Berserk_Sound"/>
 				<Event Id="3877805888" Name="Fireball_Cast_Sound" ObjectPath="\Events\Default Work Unit\Player\Fireball\Fireball_Cast_Sound"/>
 				<Event Id="747939538" Name="Fireball_Explosion_Sound" ObjectPath="\Events\Default Work Unit\Player\Fireball\Fireball_Explosion_Sound"/>
 				<Event Id="569059386" Name="Footsteps_Sound" ObjectPath="\Events\Default Work Unit\Player\Animation\Movement\Footsteps_Sound"/>
+				<Event Id="317146745" Name="God_Sound" ObjectPath="\Events\Default Work Unit\Player\PowerUps\God_Sound"/>
 				<Event Id="2477428053" Name="Greatsword_Hit_Sound" ObjectPath="\Events\Default Work Unit\Player\Weapon\Greatsword_Hit_Sound"/>
 				<Event Id="2948466998" Name="Greatsword_Miss_Sound" ObjectPath="\Events\Default Work Unit\Player\Weapon\Greatsword_Miss_Sound"/>
+				<Event Id="4292314254" Name="Inferno_Sound" ObjectPath="\Events\Default Work Unit\Player\PowerUps\Inferno_Sound"/>
 				<Event Id="91396763" Name="Jump_End_Sound" ObjectPath="\Events\Default Work Unit\Player\Animation\Jump\Jump_End_Sound"/>
 				<Event Id="360162196" Name="Jump_Start_Sound" ObjectPath="\Events\Default Work Unit\Player\Animation\Jump\Jump_Start_Sound"/>
+				<Event Id="881781992" Name="Player_Hit_Sound" ObjectPath="\Events\Default Work Unit\Player\Animation\Hit\Player_Hit_Sound"/>
+				<Event Id="3411795206" Name="PU_Not_Ready_Sound" ObjectPath="\Events\Default Work Unit\Player\PowerUps\PU_Not_Ready_Sound"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="43364545" Language="SFX">
@@ -40,6 +45,10 @@
 				<File Id="275099248" Language="SFX">
 					<ShortName>Fireball_Explosion_Sub.wav</ShortName>
 					<Path>SFX\Fireball_Explosion_Sub_6DB9D2A2.wem</Path>
+				</File>
+				<File Id="354337673" Language="SFX">
+					<ShortName>I'm God.wav</ShortName>
+					<Path>SFX\I'm God_9E69E797.wem</Path>
 				</File>
 				<File Id="380906366" Language="SFX">
 					<ShortName>FTSP DG 4.wav</ShortName>
@@ -65,17 +74,33 @@
 					<ShortName>FTSP DG 5.wav</ShortName>
 					<Path>SFX\FTSP DG 5_9963502E.wem</Path>
 				</File>
+				<File Id="600108248" Language="SFX">
+					<ShortName>Not Ready Yet.wav</ShortName>
+					<Path>SFX\Not Ready Yet_9E69E797.wem</Path>
+				</File>
 				<File Id="617257510" Language="SFX">
 					<ShortName>FTSP DG 2.wav</ShortName>
 					<Path>SFX\FTSP DG 2_DD693588.wem</Path>
 				</File>
-				<File Id="716578288" Language="SFX">
-					<ShortName>Fireball_Explosion.wav</ShortName>
-					<Path>SFX\Fireball_Explosion_08EB8803.wem</Path>
+				<File Id="800916686" Language="SFX">
+					<ShortName>Inferno.wav</ShortName>
+					<Path>SFX\Inferno_9E69E797.wem</Path>
 				</File>
 				<File Id="818547509" Language="SFX">
 					<ShortName>Fireball_Start.wav</ShortName>
 					<Path>SFX\Fireball_Start_5A99E570.wem</Path>
+				</File>
+				<File Id="833082251" Language="SFX">
+					<ShortName>Sound Effects - Blood Gore Carnage and Tearing Flesh.wav</ShortName>
+					<Path>SFX\Sound Effects - Blood Gore Carnage and Tearing Flesh_E9D7723A.wem</Path>
+				</File>
+				<File Id="851860679" Language="SFX">
+					<ShortName>Fireball_Explosion.wav</ShortName>
+					<Path>SFX\Fireball_Explosion_2F6FE3D1.wem</Path>
+				</File>
+				<File Id="929171571" Language="SFX">
+					<ShortName>Dark Growl.wav</ShortName>
+					<Path>SFX\Dark Growl_9E69E797.wem</Path>
 				</File>
 				<File Id="1051392861" Language="SFX">
 					<ShortName>FTSP DG 1.wav</ShortName>
