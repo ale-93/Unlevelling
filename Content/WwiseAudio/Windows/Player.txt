@@ -1,25 +1,35 @@
 Event	ID	Name			Wwise Object Path	Notes
 	91396763	Jump_End_Sound			\Default Work Unit\Player\Animation\Jump\Jump_End_Sound	
+	317146745	God_Sound			\Default Work Unit\Player\PowerUps\God_Sound	
 	360162196	Jump_Start_Sound			\Default Work Unit\Player\Animation\Jump\Jump_Start_Sound	
 	569059386	Footsteps_Sound			\Default Work Unit\Player\Animation\Movement\Footsteps_Sound	
 	747939538	Fireball_Explosion_Sound			\Default Work Unit\Player\Fireball\Fireball_Explosion_Sound	
+	881781992	Player_Hit_Sound			\Default Work Unit\Player\Animation\Hit\Player_Hit_Sound	
 	2477428053	Greatsword_Hit_Sound			\Default Work Unit\Player\Weapon\Greatsword_Hit_Sound	
 	2948466998	Greatsword_Miss_Sound			\Default Work Unit\Player\Weapon\Greatsword_Miss_Sound	
+	3352646037	Berserk_Sound			\Default Work Unit\Player\PowerUps\Berserk_Sound	
+	3411795206	PU_Not_Ready_Sound			\Default Work Unit\Player\PowerUps\PU_Not_Ready_Sound	
 	3877805888	Fireball_Cast_Sound			\Default Work Unit\Player\Fireball\Fireball_Cast_Sound	
+	4292314254	Inferno_Sound			\Default Work Unit\Player\PowerUps\Inferno_Sound	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	43364545	Jump_End	H:\WWise Projects\Unleveling\.cache\Windows\SFX\FTSP DG 3_5BC9E8DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Jump\Jump_End		35364
-	56625941	Jump_Start	H:\WWise Projects\Unleveling\.cache\Windows\SFX\Jump_Feet_DEFFE894.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Jump\Jump_Start		41462
-	214724033	FTSP DG 7	H:\WWise Projects\Unleveling\.cache\Windows\SFX\FTSP DG 7_FA7CBA88.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\FTSP DG 7		35394
-	275099248	Fireball_Explosion_Sub	H:\WWise Projects\Unleveling\.cache\Windows\SFX\Fireball_Explosion_Sub_6DB9D2A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Fireball\Fireball_Explosion\Fireball_Explosion_Sub		245452
-	380906366	FTSP DG 4	H:\WWise Projects\Unleveling\.cache\Windows\SFX\FTSP DG 4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\FTSP DG 4		34480
-	399908424	Sword Miss	H:\WWise Projects\Unleveling\.cache\Windows\SFX\interaction_whoosh_medium_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Greatsword\Sword Miss		26368
-	407042502	Sword Hit	H:\WWise Projects\Unleveling\.cache\Windows\SFX\Sword 1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Greatsword\Sword Hit		134628
-	445547432	Fireball_Explosion_Blast	H:\WWise Projects\Unleveling\.cache\Windows\SFX\Fireball_Explosion_Blast_7E91D02C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Fireball\Fireball_Explosion\Fireball_Explosion_Blast		307136
-	447891353	FTSP DG 6	H:\WWise Projects\Unleveling\.cache\Windows\SFX\FTSP DG 6_B9D5DA87.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\FTSP DG 6		35350
-	588435546	FTSP DG 5	H:\WWise Projects\Unleveling\.cache\Windows\SFX\FTSP DG 5_9963502E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\FTSP DG 5		35292
-	617257510	FTSP DG 2	H:\WWise Projects\Unleveling\.cache\Windows\SFX\FTSP DG 2_DD693588.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\FTSP DG 2		35290
-	716578288	Fireball_Explosion	H:\WWise Projects\Unleveling\.cache\Windows\SFX\Fireball_Explosion_08EB8803.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Fireball\Fireball_Explosion\Fireball_Explosion		380812
-	818547509	Fireball_Start	H:\WWise Projects\Unleveling\.cache\Windows\SFX\Fireball_Start_5A99E570.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Fireball\Fireball_Start		125600
-	1051392861	FTSP DG 1	H:\WWise Projects\Unleveling\.cache\Windows\SFX\FTSP DG 1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\FTSP DG 1		34762
+	43364545	Jump_End	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\FTSP DG 3_5BC9E8DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Jump\Jump_End		35364
+	56625941	Jump_Start	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\Jump_Feet_DEFFE894.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Jump\Jump_Start		41462
+	214724033	FTSP DG 7	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\FTSP DG 7_FA7CBA88.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\FTSP DG 7		35394
+	275099248	Fireball_Explosion_Sub	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\Fireball_Explosion_Sub_6DB9D2A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Fireball\Fireball_Explosion\Fireball_Explosion_Sub		245452
+	354337673	I'm God	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\I'm God_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PowerUp\I'm God		206372
+	380906366	FTSP DG 4	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\FTSP DG 4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\FTSP DG 4		34480
+	399908424	Sword Miss	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\interaction_whoosh_medium_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Greatsword\Sword Miss		26368
+	407042502	Sword Hit	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\Sword 1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Greatsword\Sword Hit		134628
+	445547432	Fireball_Explosion_Blast	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\Fireball_Explosion_Blast_7E91D02C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Fireball\Fireball_Explosion\Fireball_Explosion_Blast		307136
+	447891353	FTSP DG 6	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\FTSP DG 6_B9D5DA87.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\FTSP DG 6		35350
+	588435546	FTSP DG 5	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\FTSP DG 5_9963502E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\FTSP DG 5		35292
+	600108248	Not Ready Yet	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\Not Ready Yet_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PowerUp\Not Ready Yet		241728
+	617257510	FTSP DG 2	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\FTSP DG 2_DD693588.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\FTSP DG 2		35290
+	800916686	Inferno	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\Inferno_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PowerUp\Inferno		241728
+	818547509	Fireball_Start	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\Fireball_Start_5A99E570.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Fireball\Fireball_Start		125600
+	833082251	Player_Hit_Sound	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\Sound Effects - Blood Gore Carnage and Tearing Flesh_E9D7723A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Hit\Player_Hit_Sound		135296
+	851860679	Fireball_Explosion	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\Fireball_Explosion_2F6FE3D1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Fireball\Fireball_Explosion\Fireball_Explosion		374640
+	929171571	Dark Growl	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\Dark Growl_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PowerUp\Dark Growl		206372
+	1051392861	FTSP DG 1	H:\WWise Projects\Unleveling_Wwise\.cache\Windows\SFX\FTSP DG 1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\FTSP DG 1		34762
 

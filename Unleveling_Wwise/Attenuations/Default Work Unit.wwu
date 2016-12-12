@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Attenuation Name="Fireball_Explosion" ID="{FC028D24-0E84-4EFD-8933-14609BE4AEE5}" ShortID="488842029">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="5000"/>
+						<Property Name="RadiusMax" Type="Real64" Value="7000"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -21,22 +21,22 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>992.06349</XPos>
+											<XPos>1388.888886</XPos>
 											<YPos>-0.88034</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>2007.93651</XPos>
-											<YPos>-4.08519</YPos>
+											<XPos>2811.11111</XPos>
+											<YPos>-5.2826</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>3492.0635</XPos>
-											<YPos>-14.09254</YPos>
+											<XPos>4744.44446</XPos>
+											<YPos>-14.61359</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>5000</XPos>
+											<XPos>7000</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -63,17 +63,22 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>1500</XPos>
+											<XPos>2100</XPos>
 											<YPos>0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>3492.06349</XPos>
+											<XPos>3833.33333</XPos>
+											<YPos>31</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>4888.888886</XPos>
 											<YPos>69</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>5000</XPos>
+											<XPos>7000</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -94,7 +99,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>5000</XPos>
+											<XPos>7000</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>

@@ -74,6 +74,21 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="Hit" ID="{5AD3556F-C0D2-40EC-A5C0-671ECDA2F345}" ShortID="163415622">
+									<ChildrenList>
+										<Event Name="Player_Hit_Sound" ID="{F0D399C1-C58F-4076-B652-961A543F144D}">
+											<ChildrenList>
+												<Action Name="Play" ID="{A04E822F-FBB0-4681-9EE6-D2D6B3C5D331}" ShortID="619779268" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{E943791E-3155-43F7-A80B-6170E1B5CF84}" Global="false">
+															<ObjectRef Name="Player_Hit_Sound" ID="{AE601331-50B0-4BA9-B9A1-2C932939DF55}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Weapon" ID="{7C39698A-5772-4A67-9C71-E94F88DD15F1}" ShortID="947426889">
@@ -121,6 +136,54 @@
 											<ElementList>
 												<Element ID="{2C93CF7A-AF1A-45AD-ABE1-B8DAE664FE7A}" Global="false">
 													<ObjectRef Name="Fireball_Explosion" ID="{728FE383-802F-4C31-9A6C-6E92F083CBEB}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="PowerUps" ID="{5E15839B-2B58-465D-99E7-18296144FE96}" ShortID="502440672">
+							<ChildrenList>
+								<Event Name="Inferno_Sound" ID="{C8265395-9EFD-465C-B344-3958B1B6D059}">
+									<ChildrenList>
+										<Action Name="Play" ID="{BE697C03-300A-42DE-9625-AF985A28E915}" ShortID="885634760" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{DE967F7C-F1ED-4A85-96F2-BDDA9656AF0D}" Global="false">
+													<ObjectRef Name="Inferno" ID="{4B80071D-2296-41FB-AF77-FA7AF2B53167}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="God_Sound" ID="{656DCFC5-5802-4CB7-99FA-91640830F4F9}">
+									<ChildrenList>
+										<Action Name="Play" ID="{1DEDE914-9E84-479A-B1C6-CA546B266F32}" ShortID="512489199" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{D84C531C-A2D2-4B84-B7D3-5FFC43AC747D}" Global="false">
+													<ObjectRef Name="I'm God" ID="{A15EA9D7-8217-40EA-A0CB-64F3EF64A664}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Berserk_Sound" ID="{2ACCBB9E-8EDB-4536-BECD-2F155B367A24}">
+									<ChildrenList>
+										<Action Name="Play" ID="{A6AB3F73-8293-455A-8B1D-0320EFDA36D6}" ShortID="956309899" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{EF0B2622-AC8B-4F28-AE52-CFBF91378805}" Global="false">
+													<ObjectRef Name="Dark Growl" ID="{19B61D9D-15C7-4787-B175-7B3B825740A8}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PU_Not_Ready_Sound" ID="{6FFAF5A2-E449-4E3E-8746-7F5F34F4EE36}">
+									<ChildrenList>
+										<Action Name="Play" ID="{CB7C6E2B-4138-4603-A7BE-6574C5A8D565}" ShortID="131102338" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{18F0E451-CDF6-4489-8EB4-1760A0D1C97D}" Global="false">
+													<ObjectRef Name="Not Ready Yet" ID="{6B958A92-CFB7-4029-A476-F1A9410F2C79}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
 												</Element>
 											</ElementList>
 										</Action>
