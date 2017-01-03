@@ -1,35 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>H:\WWise Projects\Unleveling_Wwise\</ProjectRoot>
-		<SourceFilesRoot>H:\WWise Projects\Unleveling_Wwise\.cache\Windows\</SourceFilesRoot>
+		<ProjectRoot>H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\</ProjectRoot>
+		<SourceFilesRoot>H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\</SourceFilesRoot>
 		<SoundBanksRoot>H:\UE4 Projects\Unlevelling-master\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>H:\WWise Projects\Unleveling_Wwise\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="85412153" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
+			<ShortName>Ambience</ShortName>
+			<Path>Ambience.bnk</Path>
+			<IncludedEvents>
+				<Event Id="140579756" Name="Ambience_Music_Start" ObjectPath="\Events\Default Work Unit\Ambience\Ambience_Music_Start"/>
+				<Event Id="4055567060" Name="Menu_Music" ObjectPath="\Events\Default Work Unit\Ambience\Menu_Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="525152876" Language="SFX">
+					<ShortName>Epic Drums Loop.wav</ShortName>
+					<Path>SFX\Epic Drums Loop_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="735325755" Language="SFX">
+					<ShortName>Fireplace Crackle.wav</ShortName>
+					<Path>SFX\Fireplace Crackle_051CEC10.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="1069431850" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3352646037" Name="Berserk_Sound" ObjectPath="\Events\Default Work Unit\Player\PowerUps\Berserk_Sound"/>
-				<Event Id="3877805888" Name="Fireball_Cast_Sound" ObjectPath="\Events\Default Work Unit\Player\Fireball\Fireball_Cast_Sound"/>
-				<Event Id="747939538" Name="Fireball_Explosion_Sound" ObjectPath="\Events\Default Work Unit\Player\Fireball\Fireball_Explosion_Sound"/>
+				<Event Id="3285099497" Name="Bow_Nock" ObjectPath="\Events\Default Work Unit\Player\Weapon\Bow\Bow_Nock"/>
+				<Event Id="3821338389" Name="Bow_Release" ObjectPath="\Events\Default Work Unit\Player\Weapon\Bow\Bow_Release"/>
+				<Event Id="3877805888" Name="Fireball_Cast_Sound" ObjectPath="\Events\Default Work Unit\Player\Weapon\Fireball\Fireball_Cast_Sound"/>
+				<Event Id="747939538" Name="Fireball_Explosion_Sound" ObjectPath="\Events\Default Work Unit\Player\Weapon\Fireball\Fireball_Explosion_Sound"/>
 				<Event Id="569059386" Name="Footsteps_Sound" ObjectPath="\Events\Default Work Unit\Player\Animation\Movement\Footsteps_Sound"/>
 				<Event Id="317146745" Name="God_Sound" ObjectPath="\Events\Default Work Unit\Player\PowerUps\God_Sound"/>
-				<Event Id="2477428053" Name="Greatsword_Hit_Sound" ObjectPath="\Events\Default Work Unit\Player\Weapon\Greatsword_Hit_Sound"/>
-				<Event Id="2948466998" Name="Greatsword_Miss_Sound" ObjectPath="\Events\Default Work Unit\Player\Weapon\Greatsword_Miss_Sound"/>
+				<Event Id="2477428053" Name="Greatsword_Hit_Sound" ObjectPath="\Events\Default Work Unit\Player\Weapon\Sword\Greatsword_Hit_Sound"/>
+				<Event Id="2948466998" Name="Greatsword_Miss_Sound" ObjectPath="\Events\Default Work Unit\Player\Weapon\Sword\Greatsword_Miss_Sound"/>
 				<Event Id="4292314254" Name="Inferno_Sound" ObjectPath="\Events\Default Work Unit\Player\PowerUps\Inferno_Sound"/>
 				<Event Id="91396763" Name="Jump_End_Sound" ObjectPath="\Events\Default Work Unit\Player\Animation\Jump\Jump_End_Sound"/>
 				<Event Id="360162196" Name="Jump_Start_Sound" ObjectPath="\Events\Default Work Unit\Player\Animation\Jump\Jump_Start_Sound"/>
+				<Event Id="2103127106" Name="Player_Energy_Level" ObjectPath="\Events\Default Work Unit\Player\Animation\Player_Energy_Level"/>
 				<Event Id="881781992" Name="Player_Hit_Sound" ObjectPath="\Events\Default Work Unit\Player\Animation\Hit\Player_Hit_Sound"/>
 				<Event Id="3411795206" Name="PU_Not_Ready_Sound" ObjectPath="\Events\Default Work Unit\Player\PowerUps\PU_Not_Ready_Sound"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="26103216" Language="SFX">
+					<ShortName>voice_male_02_hurt_03.wav</ShortName>
+					<Path>SFX\voice_male_02_hurt_03_9E69E797.wem</Path>
+				</File>
+				<File Id="29302239" Language="SFX">
+					<ShortName>voice_male_01_hurt_01.wav</ShortName>
+					<Path>SFX\voice_male_01_hurt_01_9E69E797.wem</Path>
+				</File>
 				<File Id="43364545" Language="SFX">
 					<ShortName>FTSP DG 3.wav</ShortName>
 					<Path>SFX\FTSP DG 3_5BC9E8DB.wem</Path>
@@ -70,6 +100,14 @@
 					<ShortName>FTSP DG 6.wav</ShortName>
 					<Path>SFX\FTSP DG 6_B9D5DA87.wem</Path>
 				</File>
+				<File Id="475963373" Language="SFX">
+					<ShortName>voice_male_breathing_01.wav</ShortName>
+					<Path>SFX\voice_male_breathing_01_EE492DF9.wem</Path>
+				</File>
+				<File Id="583229197" Language="SFX">
+					<ShortName>Nock and fire.wav</ShortName>
+					<Path>SFX\Nock and fire_B059C48C.wem</Path>
+				</File>
 				<File Id="588435546" Language="SFX">
 					<ShortName>FTSP DG 5.wav</ShortName>
 					<Path>SFX\FTSP DG 5_9963502E.wem</Path>
@@ -94,9 +132,17 @@
 					<ShortName>Sound Effects - Blood Gore Carnage and Tearing Flesh.wav</ShortName>
 					<Path>SFX\Sound Effects - Blood Gore Carnage and Tearing Flesh_E9D7723A.wem</Path>
 				</File>
+				<File Id="846702769" Language="SFX">
+					<ShortName>voice_male_01_hurt_03.wav</ShortName>
+					<Path>SFX\voice_male_01_hurt_03_9E69E797.wem</Path>
+				</File>
 				<File Id="851860679" Language="SFX">
 					<ShortName>Fireball_Explosion.wav</ShortName>
 					<Path>SFX\Fireball_Explosion_2F6FE3D1.wem</Path>
+				</File>
+				<File Id="893570580" Language="SFX">
+					<ShortName>interaction_whoosh_small_03.wav</ShortName>
+					<Path>SFX\interaction_whoosh_small_03_9E69E797.wem</Path>
 				</File>
 				<File Id="929171571" Language="SFX">
 					<ShortName>Dark Growl.wav</ShortName>
