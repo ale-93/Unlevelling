@@ -44,6 +44,7 @@
 				<Event Id="317146745" Name="God_Sound" ObjectPath="\Events\Default Work Unit\Player\PowerUps\God_Sound"/>
 				<Event Id="2477428053" Name="Greatsword_Hit_Sound" ObjectPath="\Events\Default Work Unit\Player\Weapon\Sword\Greatsword_Hit_Sound"/>
 				<Event Id="2948466998" Name="Greatsword_Miss_Sound" ObjectPath="\Events\Default Work Unit\Player\Weapon\Sword\Greatsword_Miss_Sound"/>
+				<Event Id="2999782785" Name="Holy_Blessing_Sound" ObjectPath="\Events\Default Work Unit\Player\Weapon\Holy Blessing\Holy_Blessing_Sound"/>
 				<Event Id="4292314254" Name="Inferno_Sound" ObjectPath="\Events\Default Work Unit\Player\PowerUps\Inferno_Sound"/>
 				<Event Id="91396763" Name="Jump_End_Sound" ObjectPath="\Events\Default Work Unit\Player\Animation\Jump\Jump_End_Sound"/>
 				<Event Id="360162196" Name="Jump_Start_Sound" ObjectPath="\Events\Default Work Unit\Player\Animation\Jump\Jump_Start_Sound"/>
@@ -103,6 +104,10 @@
 				<File Id="475963373" Language="SFX">
 					<ShortName>voice_male_breathing_01.wav</ShortName>
 					<Path>SFX\voice_male_breathing_01_EE492DF9.wem</Path>
+				</File>
+				<File Id="547280491" Language="SFX">
+					<ShortName>Choir in E.wav</ShortName>
+					<Path>SFX\Choir in E_9E69E797.wem</Path>
 				</File>
 				<File Id="583229197" Language="SFX">
 					<ShortName>Nock and fire.wav</ShortName>
