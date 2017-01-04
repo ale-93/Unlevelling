@@ -11,25 +11,6 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
-			<ShortName>Ambience</ShortName>
-			<Path>Ambience.bnk</Path>
-			<IncludedEvents>
-				<Event Id="140579756" Name="Ambience_Music_Start" ObjectPath="\Events\Default Work Unit\Ambience\Ambience_Music_Start"/>
-				<Event Id="4055567060" Name="Menu_Music" ObjectPath="\Events\Default Work Unit\Ambience\Menu_Music"/>
-			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="525152876" Language="SFX">
-					<ShortName>Epic Drums Loop.wav</ShortName>
-					<Path>SFX\Epic Drums Loop_4B8CC0C5.wem</Path>
-				</File>
-				<File Id="735325755" Language="SFX">
-					<ShortName>Fireplace Crackle.wav</ShortName>
-					<Path>SFX\Fireplace Crackle_051CEC10.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
-		</SoundBank>
 		<SoundBank Id="1069431850" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
 			<ShortName>Player</ShortName>
@@ -48,8 +29,8 @@
 				<Event Id="4292314254" Name="Inferno_Sound" ObjectPath="\Events\Default Work Unit\Player\PowerUps\Inferno_Sound"/>
 				<Event Id="91396763" Name="Jump_End_Sound" ObjectPath="\Events\Default Work Unit\Player\Animation\Jump\Jump_End_Sound"/>
 				<Event Id="360162196" Name="Jump_Start_Sound" ObjectPath="\Events\Default Work Unit\Player\Animation\Jump\Jump_Start_Sound"/>
-				<Event Id="2103127106" Name="Player_Energy_Level" ObjectPath="\Events\Default Work Unit\Player\Animation\Player_Energy_Level"/>
-				<Event Id="881781992" Name="Player_Hit_Sound" ObjectPath="\Events\Default Work Unit\Player\Animation\Hit\Player_Hit_Sound"/>
+				<Event Id="2103127106" Name="Player_Energy_Level" ObjectPath="\Events\Default Work Unit\Player\Status\Player_Energy_Level"/>
+				<Event Id="881781992" Name="Player_Hit_Sound" ObjectPath="\Events\Default Work Unit\Player\Status\Hit\Player_Hit_Sound"/>
 				<Event Id="3411795206" Name="PU_Not_Ready_Sound" ObjectPath="\Events\Default Work Unit\Player\PowerUps\PU_Not_Ready_Sound"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -69,13 +50,17 @@
 					<ShortName>Jump_Feet.wav</ShortName>
 					<Path>SFX\Jump_Feet_DEFFE894.wem</Path>
 				</File>
-				<File Id="214724033" Language="SFX">
-					<ShortName>FTSP DG 7.wav</ShortName>
-					<Path>SFX\FTSP DG 7_FA7CBA88.wem</Path>
+				<File Id="220701512" Language="SFX">
+					<ShortName>footsteps_shoe_snow_walk_05.wav</ShortName>
+					<Path>SFX\footsteps_shoe_snow_walk_05_9E69E797.wem</Path>
 				</File>
 				<File Id="275099248" Language="SFX">
 					<ShortName>Fireball_Explosion_Sub.wav</ShortName>
 					<Path>SFX\Fireball_Explosion_Sub_6DB9D2A2.wem</Path>
+				</File>
+				<File Id="288358247" Language="SFX">
+					<ShortName>footsteps_shoe_dirt_walk_04.wav</ShortName>
+					<Path>SFX\footsteps_shoe_dirt_walk_04_9E69E797.wem</Path>
 				</File>
 				<File Id="354337673" Language="SFX">
 					<ShortName>I'm God.wav</ShortName>
@@ -84,6 +69,10 @@
 				<File Id="380906366" Language="SFX">
 					<ShortName>FTSP DG 4.wav</ShortName>
 					<Path>SFX\FTSP DG 4_9E69E797.wem</Path>
+				</File>
+				<File Id="392703388" Language="SFX">
+					<ShortName>footsteps_shoe_concrete_walk_04.wav</ShortName>
+					<Path>SFX\footsteps_shoe_concrete_walk_04_9E69E797.wem</Path>
 				</File>
 				<File Id="399908424" Language="SFX">
 					<ShortName>interaction_whoosh_medium_03.wav</ShortName>
@@ -109,6 +98,10 @@
 					<ShortName>Choir in E.wav</ShortName>
 					<Path>SFX\Choir in E_9E69E797.wem</Path>
 				</File>
+				<File Id="574264797" Language="SFX">
+					<ShortName>footsteps_shoe_snow_walk_01.wav</ShortName>
+					<Path>SFX\footsteps_shoe_snow_walk_01_9E69E797.wem</Path>
+				</File>
 				<File Id="583229197" Language="SFX">
 					<ShortName>Nock and fire.wav</ShortName>
 					<Path>SFX\Nock and fire_B059C48C.wem</Path>
@@ -129,6 +122,10 @@
 					<ShortName>Inferno.wav</ShortName>
 					<Path>SFX\Inferno_9E69E797.wem</Path>
 				</File>
+				<File Id="807877879" Language="SFX">
+					<ShortName>footsteps_shoe_dirt_walk_02.wav</ShortName>
+					<Path>SFX\footsteps_shoe_dirt_walk_02_9E69E797.wem</Path>
+				</File>
 				<File Id="818547509" Language="SFX">
 					<ShortName>Fireball_Start.wav</ShortName>
 					<Path>SFX\Fireball_Start_5A99E570.wem</Path>
@@ -136,6 +133,10 @@
 				<File Id="833082251" Language="SFX">
 					<ShortName>Sound Effects - Blood Gore Carnage and Tearing Flesh.wav</ShortName>
 					<Path>SFX\Sound Effects - Blood Gore Carnage and Tearing Flesh_E9D7723A.wem</Path>
+				</File>
+				<File Id="833161978" Language="SFX">
+					<ShortName>footsteps_shoe_snow_walk_03.wav</ShortName>
+					<Path>SFX\footsteps_shoe_snow_walk_03_9E69E797.wem</Path>
 				</File>
 				<File Id="846702769" Language="SFX">
 					<ShortName>voice_male_01_hurt_03.wav</ShortName>
@@ -152,6 +153,10 @@
 				<File Id="929171571" Language="SFX">
 					<ShortName>Dark Growl.wav</ShortName>
 					<Path>SFX\Dark Growl_9E69E797.wem</Path>
+				</File>
+				<File Id="1020990748" Language="SFX">
+					<ShortName>footsteps_shoe_concrete_walk_01.wav</ShortName>
+					<Path>SFX\footsteps_shoe_concrete_walk_01_9E69E797.wem</Path>
 				</File>
 				<File Id="1051392861" Language="SFX">
 					<ShortName>FTSP DG 1.wav</ShortName>
