@@ -1,8 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
-	140579756	Ambience_Music_Start			\Default Work Unit\Ambience\Ambience_Music_Start	
-	4055567060	Menu_Music			\Default Work Unit\Ambience\Menu_Music	
+	140579756	Ambience_Music_Start			\Default Work Unit\Ambience\Music\Ambience_Music_Start	
+	501754425	Temple_Door_Explosion			\Default Work Unit\Ambience\Objects\Temple_Door_Explosion	
+	4055567060	Menu_Music			\Default Work Unit\Ambience\Music\Menu_Music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	34354242	Unleveling Score	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\Unleveling Score_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Ambience\Unleveling Score		32086360
+	528504272	Explosion_withRocks	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\Explosion_withRocks_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Temple_Door\Explosion_withRocks		1189356
 	959521233	Unleveling Menu Music	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\Fireplace Crackle_84071BEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Start Menu\Unleveling Menu Music		15566544
 
