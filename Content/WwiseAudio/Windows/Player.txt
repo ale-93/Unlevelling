@@ -17,15 +17,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3877805888	Fireball_Cast_Sound			\Default Work Unit\Player\Attack\Fireball\Fireball_Cast_Sound	
 	4292314254	Inferno_Sound			\Default Work Unit\Player\PowerUps\Inferno_Sound	
 
-Switch Group	ID	Name			Wwise Object Path	Notes
-	354267144	Terrain			\Default Work Unit\Terrain	
-
-Switch	ID	Name	Switch Group			Notes
-	787898836	Snow	Terrain			
-	1216965916	Stone	Terrain			
-	2110808655	Road	Terrain			
-	4248645337	Grass	Terrain			
-
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3743914789	Player_Energy			\Default Work Unit\Player_Energy	
 
@@ -33,12 +24,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	43364545	Jump_End	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\FTSP DG 3_5BC9E8DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Jump\Jump_End		35364
 	56625941	Jump_Start	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\Jump_Feet_DEFFE894.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Jump\Jump_Start		41462
 	93672808	Arrow whoosh	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\Arrow whoosh_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Bow\Bow_Release\Arrow whoosh		53676
-	113200757	footsteps_shoe_concrete_walk_02	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\footsteps_shoe_concrete_walk_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\Stone\footsteps_shoe_concrete_walk_02		16952
-	121938204	footsteps_shoe_concrete_walk_01	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\footsteps_shoe_concrete_walk_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\Stone\footsteps_shoe_concrete_walk_01		16000
+	113200757	footsteps_shoe_concrete_walk_02	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\footsteps_shoe_concrete_walk_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\footsteps_shoe_concrete_walk_02		16952
 	275099248	Fireball_Explosion_Sub	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\Fireball_Explosion_Sub_6DB9D2A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Fireball\Fireball_Explosion\Fireball_Explosion_Sub		245452
 	353649942	Player_Low_Energy	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\voice_male_breathing_01_EC1A3ACD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Status\Player_Low_Energy		103584
 	354337673	I'm God	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\I'm God_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PowerUp\I'm God		206372
-	356051502	footsteps_shoe_concrete_walk_04	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\footsteps_shoe_concrete_walk_04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\Stone\footsteps_shoe_concrete_walk_04		19776
+	356051502	footsteps_shoe_concrete_walk_04	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\footsteps_shoe_concrete_walk_04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Footsteps\footsteps_shoe_concrete_walk_04		19776
 	399908424	Sword Miss	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\interaction_whoosh_medium_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Greatsword\Sword Miss		26368
 	407042502	Sword Hit	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\Sword 1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Greatsword\Sword Hit		134628
 	443426476	Bow_Whoosh	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\Nock and fire_2B145934.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Bow\Bow_Release\Bow_Whoosh		7078

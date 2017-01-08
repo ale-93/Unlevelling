@@ -1,8 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1090434317	Elem_Footstep_Sound			\Default Work Unit\NPCs\Elementals\Movement\Elem_Footstep_Sound	
+	1980738166	Human_AI_Footstep			\Default Work Unit\NPCs\Human\Movement\Human_AI_Footstep	
+	2129838662	Human_AI_Death_Sound			\Default Work Unit\NPCs\Human\Status\Human_AI_Death_Sound	
 	3890099195	Elem_Death_Sound			\Default Work Unit\NPCs\Elementals\Status\Elem_Death_Sound	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	121938204	Human_AI_Footstep	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\footsteps_shoe_concrete_walk_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Humans\Movement\Human_AI_Footstep		16000
 	485670176	Footsteps_Heavy_01	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\Footsteps_Heavy_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Elementals\Footsteps\Footsteps_Heavy_01		63568
 	846194650	Elemental_Death	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\voice_giant_hurts_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Elementals\Status\Elemental_Death		272172
+	1016429239	Human_AI_Death	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\voice_male_02_hurt_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Humans\Status\Human_AI_Death		39542
 
