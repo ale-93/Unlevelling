@@ -11,56 +11,6 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
-			<ShortName>Ambience</ShortName>
-			<Path>Ambience.bnk</Path>
-			<IncludedEvents>
-				<Event Id="140579756" Name="Ambience_Music_Start" ObjectPath="\Events\Default Work Unit\Ambience\Music\Ambience_Music_Start"/>
-				<Event Id="4291080643" Name="Lava_Big_Boiling_Sound" ObjectPath="\Events\Default Work Unit\Ambience\Objects\Lava_Big_Boiling_Sound"/>
-				<Event Id="1481037884" Name="Lava_Medium_Boiling_Sound" ObjectPath="\Events\Default Work Unit\Ambience\Objects\Lava_Medium_Boiling_Sound"/>
-				<Event Id="753938028" Name="Lava_Small_Boiling_Sound" ObjectPath="\Events\Default Work Unit\Ambience\Objects\Lava_Small_Boiling_Sound"/>
-				<Event Id="4055567060" Name="Menu_Music" ObjectPath="\Events\Default Work Unit\Ambience\Music\Menu_Music"/>
-				<Event Id="501754425" Name="Temple_Door_Explosion" ObjectPath="\Events\Default Work Unit\Ambience\Objects\Temple_Door_Explosion"/>
-			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="34354242" Language="SFX">
-					<ShortName>Unleveling Score.wav</ShortName>
-					<Path>SFX\Unleveling Score_4B8CC0C5.wem</Path>
-				</File>
-				<File Id="528504272" Language="SFX">
-					<ShortName>Explosion_withRocks.wav</ShortName>
-					<Path>SFX\Explosion_withRocks_9E69E797.wem</Path>
-				</File>
-				<File Id="774867727" Language="SFX">
-					<ShortName>Lava Loop.wav</ShortName>
-					<Path>SFX\Lava Loop_97B67C52.wem</Path>
-				</File>
-				<File Id="959521233" Language="SFX">
-					<ShortName>Fireplace Crackle.wav</ShortName>
-					<Path>SFX\Fireplace Crackle_84071BEF.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
-		</SoundBank>
-		<SoundBank Id="833916109" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\NPCs</ObjectPath>
-			<ShortName>NPCs</ShortName>
-			<Path>NPCs.bnk</Path>
-			<IncludedEvents>
-				<Event Id="3890099195" Name="Elem_Death_Sound" ObjectPath="\Events\Default Work Unit\NPCs\Elementals\Status\Elem_Death_Sound"/>
-				<Event Id="1090434317" Name="Elem_Footstep_Sound" ObjectPath="\Events\Default Work Unit\NPCs\Elementals\Movement\Elem_Footstep_Sound"/>
-			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="485670176" Language="SFX">
-					<ShortName>Footsteps_Heavy_02.wav</ShortName>
-					<Path>SFX\Footsteps_Heavy_02_9E69E797.wem</Path>
-				</File>
-				<File Id="846194650" Language="SFX">
-					<ShortName>voice_giant_hurts_02.wav</ShortName>
-					<Path>SFX\voice_giant_hurts_02_9E69E797.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
-		</SoundBank>
 		<SoundBank Id="1069431850" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
 			<ShortName>Player</ShortName>
@@ -105,25 +55,9 @@
 					<ShortName>footsteps_shoe_concrete_walk_01.wav</ShortName>
 					<Path>SFX\footsteps_shoe_concrete_walk_01_9E69E797.wem</Path>
 				</File>
-				<File Id="204478830" Language="SFX">
-					<ShortName>footsteps_shoe_snow_walk_03.wav</ShortName>
-					<Path>SFX\footsteps_shoe_snow_walk_03_9E69E797.wem</Path>
-				</File>
-				<File Id="214724033" Language="SFX">
-					<ShortName>FTSP DG 7.wav</ShortName>
-					<Path>SFX\FTSP DG 7_FA7CBA88.wem</Path>
-				</File>
-				<File Id="224213059" Language="SFX">
-					<ShortName>footsteps_shoe_snow_walk_05.wav</ShortName>
-					<Path>SFX\footsteps_shoe_snow_walk_05_9E69E797.wem</Path>
-				</File>
 				<File Id="275099248" Language="SFX">
 					<ShortName>Fireball_Explosion_Sub.wav</ShortName>
 					<Path>SFX\Fireball_Explosion_Sub_6DB9D2A2.wem</Path>
-				</File>
-				<File Id="301898875" Language="SFX">
-					<ShortName>footsteps_shoe_dirt_walk_02.wav</ShortName>
-					<Path>SFX\footsteps_shoe_dirt_walk_02_9E69E797.wem</Path>
 				</File>
 				<File Id="353649942" Language="SFX">
 					<ShortName>voice_male_breathing_01.wav</ShortName>
@@ -136,10 +70,6 @@
 				<File Id="356051502" Language="SFX">
 					<ShortName>footsteps_shoe_concrete_walk_04.wav</ShortName>
 					<Path>SFX\footsteps_shoe_concrete_walk_04_9E69E797.wem</Path>
-				</File>
-				<File Id="380906366" Language="SFX">
-					<ShortName>FTSP DG 4.wav</ShortName>
-					<Path>SFX\FTSP DG 4_9E69E797.wem</Path>
 				</File>
 				<File Id="399908424" Language="SFX">
 					<ShortName>interaction_whoosh_medium_03.wav</ShortName>
@@ -157,21 +87,9 @@
 					<ShortName>Fireball_Explosion_Blast.wav</ShortName>
 					<Path>SFX\Fireball_Explosion_Blast_7E91D02C.wem</Path>
 				</File>
-				<File Id="494607334" Language="SFX">
-					<ShortName>footsteps_shoe_snow_walk_04.wav</ShortName>
-					<Path>SFX\footsteps_shoe_snow_walk_04_9E69E797.wem</Path>
-				</File>
 				<File Id="521075056" Language="SFX">
 					<ShortName>Weird arrow.wav</ShortName>
 					<Path>SFX\Weird arrow_0323ACF1.wem</Path>
-				</File>
-				<File Id="533133146" Language="SFX">
-					<ShortName>footsteps_shoe_dirt_walk_05.wav</ShortName>
-					<Path>SFX\footsteps_shoe_dirt_walk_05_9E69E797.wem</Path>
-				</File>
-				<File Id="588435546" Language="SFX">
-					<ShortName>FTSP DG 5.wav</ShortName>
-					<Path>SFX\FTSP DG 5_9963502E.wem</Path>
 				</File>
 				<File Id="600108248" Language="SFX">
 					<ShortName>Not Ready Yet.wav</ShortName>
@@ -216,10 +134,6 @@
 				<File Id="929171571" Language="SFX">
 					<ShortName>Dark Growl.wav</ShortName>
 					<Path>SFX\Dark Growl_9E69E797.wem</Path>
-				</File>
-				<File Id="969550979" Language="SFX">
-					<ShortName>footsteps_shoe_dirt_walk_04.wav</ShortName>
-					<Path>SFX\footsteps_shoe_dirt_walk_04_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
