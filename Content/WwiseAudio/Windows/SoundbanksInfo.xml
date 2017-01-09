@@ -11,6 +11,55 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="85412153" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
+			<ShortName>Ambience</ShortName>
+			<Path>Ambience.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2985113282" Name="Boss_Music" ObjectPath="\Events\Default Work Unit\Ambience\Music\Boss_Music"/>
+				<Event Id="3335403133" Name="Fire_Music" ObjectPath="\Events\Default Work Unit\Ambience\Music\Fire_Music"/>
+				<Event Id="1362338037" Name="Fountain" ObjectPath="\Events\Default Work Unit\Ambience\Objects\Water\Fountain"/>
+				<Event Id="3162848318" Name="Ice_Music" ObjectPath="\Events\Default Work Unit\Ambience\Music\Ice_Music"/>
+				<Event Id="624189772" Name="Lake" ObjectPath="\Events\Default Work Unit\Ambience\Objects\Water\Lake"/>
+				<Event Id="4291080643" Name="Lava_Big_Boiling_Sound" ObjectPath="\Events\Default Work Unit\Ambience\Objects\Lava\Lava_Big_Boiling_Sound"/>
+				<Event Id="1481037884" Name="Lava_Medium_Boiling_Sound" ObjectPath="\Events\Default Work Unit\Ambience\Objects\Lava\Lava_Medium_Boiling_Sound"/>
+				<Event Id="753938028" Name="Lava_Small_Boiling_Sound" ObjectPath="\Events\Default Work Unit\Ambience\Objects\Lava\Lava_Small_Boiling_Sound"/>
+				<Event Id="63796330" Name="Main_Music" ObjectPath="\Events\Default Work Unit\Ambience\Music\Main_Music"/>
+				<Event Id="4055567060" Name="Menu_Music" ObjectPath="\Events\Default Work Unit\Ambience\Music\Menu_Music"/>
+				<Event Id="1944232204" Name="Pond" ObjectPath="\Events\Default Work Unit\Ambience\Objects\Water\Pond"/>
+				<Event Id="501754425" Name="Temple_Door_Explosion" ObjectPath="\Events\Default Work Unit\Ambience\Objects\Temple_Door_Explosion"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="162283759" Language="SFX">
+					<ShortName>Boss.wav</ShortName>
+					<Path>SFX\Boss_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="528504272" Language="SFX">
+					<ShortName>Explosion_withRocks.wav</ShortName>
+					<Path>SFX\Explosion_withRocks_9E69E797.wem</Path>
+				</File>
+				<File Id="619580904" Language="SFX">
+					<ShortName>Fire.wav</ShortName>
+					<Path>SFX\Fire_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="774867727" Language="SFX">
+					<ShortName>Lava Loop.wav</ShortName>
+					<Path>SFX\Lava Loop_97B67C52.wem</Path>
+				</File>
+				<File Id="907726478" Language="SFX">
+					<ShortName>Main.wav</ShortName>
+					<Path>SFX\Main_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="959521233" Language="SFX">
+					<ShortName>Fireplace Crackle.wav</ShortName>
+					<Path>SFX\Fireplace Crackle_84071BEF.wem</Path>
+				</File>
+				<File Id="1060023500" Language="SFX">
+					<ShortName>River_Calm_02.wav</ShortName>
+					<Path>SFX\River_Calm_02_1A5DCA8F.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="833916109" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\NPCs</ObjectPath>
 			<ShortName>NPCs</ShortName>
@@ -29,6 +78,10 @@
 				<File Id="485670176" Language="SFX">
 					<ShortName>Footsteps_Heavy_02.wav</ShortName>
 					<Path>SFX\Footsteps_Heavy_02_9E69E797.wem</Path>
+				</File>
+				<File Id="562731961" Language="SFX">
+					<ShortName>Dinosaur_Footstep_01.wav</ShortName>
+					<Path>SFX\Dinosaur_Footstep_01_8D313BBA.wem</Path>
 				</File>
 				<File Id="846194650" Language="SFX">
 					<ShortName>voice_giant_hurts_02.wav</ShortName>
@@ -91,10 +144,6 @@
 				<File Id="354337673" Language="SFX">
 					<ShortName>I'm God.wav</ShortName>
 					<Path>SFX\I'm God_9E69E797.wem</Path>
-				</File>
-				<File Id="356051502" Language="SFX">
-					<ShortName>footsteps_shoe_concrete_walk_04.wav</ShortName>
-					<Path>SFX\footsteps_shoe_concrete_walk_04_9E69E797.wem</Path>
 				</File>
 				<File Id="399908424" Language="SFX">
 					<ShortName>interaction_whoosh_medium_03.wav</ShortName>
