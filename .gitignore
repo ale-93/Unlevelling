@@ -70,3 +70,5 @@ DerivedDataCache/*
 *.swp
 *.swo
 .ctrlp_cache/
+
+Unleveling_Wwise
