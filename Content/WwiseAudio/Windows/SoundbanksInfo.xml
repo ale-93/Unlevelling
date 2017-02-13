@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\</ProjectRoot>
-		<SourceFilesRoot>H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>H:\UE4 Projects\Unlevelling-master\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>

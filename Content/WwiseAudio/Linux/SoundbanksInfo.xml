@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Linux" BasePlatform="Linux" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\.cache\Linux\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\GeneratedSoundBanks\Linux\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\GeneratedSoundBanks\Linux\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="85412153" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
+			<ShortName>Ambience</ShortName>
+			<Path>Ambience.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2985113282" Name="Boss_Music" ObjectPath="\Events\Default Work Unit\Ambience\Music\Boss_Music"/>
+				<Event Id="3335403133" Name="Fire_Music" ObjectPath="\Events\Default Work Unit\Ambience\Music\Fire_Music"/>
+				<Event Id="1362338037" Name="Fountain" ObjectPath="\Events\Default Work Unit\Ambience\Objects\Water\Fountain"/>
+				<Event Id="3162848318" Name="Ice_Music" ObjectPath="\Events\Default Work Unit\Ambience\Music\Ice_Music"/>
+				<Event Id="624189772" Name="Lake" ObjectPath="\Events\Default Work Unit\Ambience\Objects\Water\Lake"/>
+				<Event Id="4291080643" Name="Lava_Big_Boiling_Sound" ObjectPath="\Events\Default Work Unit\Ambience\Objects\Lava\Lava_Big_Boiling_Sound"/>
+				<Event Id="1481037884" Name="Lava_Medium_Boiling_Sound" ObjectPath="\Events\Default Work Unit\Ambience\Objects\Lava\Lava_Medium_Boiling_Sound"/>
+				<Event Id="753938028" Name="Lava_Small_Boiling_Sound" ObjectPath="\Events\Default Work Unit\Ambience\Objects\Lava\Lava_Small_Boiling_Sound"/>
+				<Event Id="63796330" Name="Main_Music" ObjectPath="\Events\Default Work Unit\Ambience\Music\Main_Music"/>
+				<Event Id="4055567060" Name="Menu_Music" ObjectPath="\Events\Default Work Unit\Ambience\Music\Menu_Music"/>
+				<Event Id="1944232204" Name="Pond" ObjectPath="\Events\Default Work Unit\Ambience\Objects\Water\Pond"/>
+				<Event Id="501754425" Name="Temple_Door_Explosion" ObjectPath="\Events\Default Work Unit\Ambience\Objects\Temple_Door_Explosion"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="38689894" Language="SFX">
+					<ShortName>Lava Loop.wav</ShortName>
+					<Path>SFX\Lava Loop_97B67C52.wem</Path>
+				</File>
+				<File Id="162283759" Language="SFX">
+					<ShortName>Boss.wav</ShortName>
+					<Path>SFX\Boss_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="164819489" Language="SFX">
+					<ShortName>River_Calm_02.wav</ShortName>
+					<Path>SFX\River_Calm_02_1A5DCA8F.wem</Path>
+				</File>
+				<File Id="518421954" Language="SFX">
+					<ShortName>Fire.wav</ShortName>
+					<Path>SFX\Fire_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="528504272" Language="SFX">
+					<ShortName>Explosion_withRocks.wav</ShortName>
+					<Path>SFX\Explosion_withRocks_9E69E797.wem</Path>
+				</File>
+				<File Id="907726478" Language="SFX">
+					<ShortName>Main.wav</ShortName>
+					<Path>SFX\Main_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="959521233" Language="SFX">
+					<ShortName>Fireplace Crackle.wav</ShortName>
+					<Path>SFX\Fireplace Crackle_84071BEF.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="833916109" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\NPCs</ObjectPath>
+			<ShortName>NPCs</ShortName>
+			<Path>NPCs.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3890099195" Name="Elem_Death_Sound" ObjectPath="\Events\Default Work Unit\NPCs\Elementals\Status\Elem_Death_Sound"/>
+				<Event Id="1090434317" Name="Elem_Footstep_Sound" ObjectPath="\Events\Default Work Unit\NPCs\Elementals\Movement\Elem_Footstep_Sound"/>
+				<Event Id="2129838662" Name="Human_AI_Death_Sound" ObjectPath="\Events\Default Work Unit\NPCs\Human\Status\Human_AI_Death_Sound"/>
+				<Event Id="1980738166" Name="Human_AI_Footstep" ObjectPath="\Events\Default Work Unit\NPCs\Human\Movement\Human_AI_Footstep"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="121938204" Language="SFX">
+					<ShortName>footsteps_shoe_concrete_walk_01.wav</ShortName>
+					<Path>SFX\footsteps_shoe_concrete_walk_01_9E69E797.wem</Path>
+				</File>
+				<File Id="485670176" Language="SFX">
+					<ShortName>Footsteps_Heavy_02.wav</ShortName>
+					<Path>SFX\Footsteps_Heavy_02_9E69E797.wem</Path>
+				</File>
+				<File Id="562731961" Language="SFX">
+					<ShortName>Dinosaur_Footstep_01.wav</ShortName>
+					<Path>SFX\Dinosaur_Footstep_01_8D313BBA.wem</Path>
+				</File>
+				<File Id="846194650" Language="SFX">
+					<ShortName>voice_giant_hurts_02.wav</ShortName>
+					<Path>SFX\voice_giant_hurts_02_9E69E797.wem</Path>
+				</File>
+				<File Id="1016429239" Language="SFX">
+					<ShortName>voice_male_02_hurt_03.wav</ShortName>
+					<Path>SFX\voice_male_02_hurt_03_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1069431850" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
+			<ShortName>Player</ShortName>
+			<Path>Player.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3352646037" Name="Berserk_Sound" ObjectPath="\Events\Default Work Unit\Player\PowerUps\Berserk_Sound"/>
+				<Event Id="3285099497" Name="Bow_Nock" ObjectPath="\Events\Default Work Unit\Player\Attack\Bow\Bow_Nock"/>
+				<Event Id="3821338389" Name="Bow_Release" ObjectPath="\Events\Default Work Unit\Player\Attack\Bow\Bow_Release"/>
+				<Event Id="3877805888" Name="Fireball_Cast_Sound" ObjectPath="\Events\Default Work Unit\Player\Attack\Fireball\Fireball_Cast_Sound"/>
+				<Event Id="747939538" Name="Fireball_Explosion_Sound" ObjectPath="\Events\Default Work Unit\Player\Attack\Fireball\Fireball_Explosion_Sound"/>
+				<Event Id="569059386" Name="Footsteps_Sound" ObjectPath="\Events\Default Work Unit\Player\Movement\Footsteps_Sound"/>
+				<Event Id="317146745" Name="God_Sound" ObjectPath="\Events\Default Work Unit\Player\PowerUps\God_Sound"/>
+				<Event Id="2477428053" Name="Greatsword_Hit_Sound" ObjectPath="\Events\Default Work Unit\Player\Attack\Greatsword\Greatsword_Hit_Sound"/>
+				<Event Id="2948466998" Name="Greatsword_Miss_Sound" ObjectPath="\Events\Default Work Unit\Player\Attack\Greatsword\Greatsword_Miss_Sound"/>
+				<Event Id="2999782785" Name="Holy_Blessing_Sound" ObjectPath="\Events\Default Work Unit\Player\Attack\Holy Blessing\Holy_Blessing_Sound"/>
+				<Event Id="4292314254" Name="Inferno_Sound" ObjectPath="\Events\Default Work Unit\Player\PowerUps\Inferno_Sound"/>
+				<Event Id="91396763" Name="Jump_End_Sound" ObjectPath="\Events\Default Work Unit\Player\Movement\Jump\Jump_End_Sound"/>
+				<Event Id="360162196" Name="Jump_Start_Sound" ObjectPath="\Events\Default Work Unit\Player\Movement\Jump\Jump_Start_Sound"/>
+				<Event Id="1917108413" Name="Player_Death_Sound" ObjectPath="\Events\Default Work Unit\Player\Status\Player_Death_Sound"/>
+				<Event Id="2103127106" Name="Player_Energy_Level" ObjectPath="\Events\Default Work Unit\Player\Status\Player_Energy_Level"/>
+				<Event Id="881781992" Name="Player_Hit_Sound" ObjectPath="\Events\Default Work Unit\Player\Status\Player_Hit_Sound"/>
+				<Event Id="3411795206" Name="PU_Not_Ready_Sound" ObjectPath="\Events\Default Work Unit\Player\PowerUps\PU_Not_Ready_Sound"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="56625941" Language="SFX">
+					<ShortName>Jump_Feet.wav</ShortName>
+					<Path>SFX\Jump_Feet_DEFFE894.wem</Path>
+				</File>
+				<File Id="93672808" Language="SFX">
+					<ShortName>Arrow whoosh.wav</ShortName>
+					<Path>SFX\Arrow whoosh_9E69E797.wem</Path>
+				</File>
+				<File Id="113200757" Language="SFX">
+					<ShortName>footsteps_shoe_concrete_walk_02.wav</ShortName>
+					<Path>SFX\footsteps_shoe_concrete_walk_02_9E69E797.wem</Path>
+				</File>
+				<File Id="275099248" Language="SFX">
+					<ShortName>Fireball_Explosion_Sub.wav</ShortName>
+					<Path>SFX\Fireball_Explosion_Sub_6DB9D2A2.wem</Path>
+				</File>
+				<File Id="353649942" Language="SFX">
+					<ShortName>voice_male_breathing_01.wav</ShortName>
+					<Path>SFX\voice_male_breathing_01_EC1A3ACD.wem</Path>
+				</File>
+				<File Id="354337673" Language="SFX">
+					<ShortName>I'm God.wav</ShortName>
+					<Path>SFX\I'm God_9E69E797.wem</Path>
+				</File>
+				<File Id="355140042" Language="SFX">
+					<ShortName>FTSP DG 3.wav</ShortName>
+					<Path>SFX\FTSP DG 3_5BC9E8DB.wem</Path>
+				</File>
+				<File Id="399908424" Language="SFX">
+					<ShortName>interaction_whoosh_medium_03.wav</ShortName>
+					<Path>SFX\interaction_whoosh_medium_03_9E69E797.wem</Path>
+				</File>
+				<File Id="407042502" Language="SFX">
+					<ShortName>Sword 1.wav</ShortName>
+					<Path>SFX\Sword 1_9E69E797.wem</Path>
+				</File>
+				<File Id="443426476" Language="SFX">
+					<ShortName>Nock and fire.wav</ShortName>
+					<Path>SFX\Nock and fire_2B145934.wem</Path>
+				</File>
+				<File Id="445547432" Language="SFX">
+					<ShortName>Fireball_Explosion_Blast.wav</ShortName>
+					<Path>SFX\Fireball_Explosion_Blast_7E91D02C.wem</Path>
+				</File>
+				<File Id="521075056" Language="SFX">
+					<ShortName>Weird arrow.wav</ShortName>
+					<Path>SFX\Weird arrow_0323ACF1.wem</Path>
+				</File>
+				<File Id="600108248" Language="SFX">
+					<ShortName>Not Ready Yet.wav</ShortName>
+					<Path>SFX\Not Ready Yet_9E69E797.wem</Path>
+				</File>
+				<File Id="606032463" Language="SFX">
+					<ShortName>voice_male_01_hurt_03.wav</ShortName>
+					<Path>SFX\voice_male_01_hurt_03_9E69E797.wem</Path>
+				</File>
+				<File Id="635788392" Language="SFX">
+					<ShortName>Choir in E.wav</ShortName>
+					<Path>SFX\Choir in E_9E69E797.wem</Path>
+				</File>
+				<File Id="694730701" Language="SFX">
+					<ShortName>voice_male_01_hurt_01.wav</ShortName>
+					<Path>SFX\voice_male_01_hurt_01_9E69E797.wem</Path>
+				</File>
+				<File Id="800916686" Language="SFX">
+					<ShortName>Inferno.wav</ShortName>
+					<Path>SFX\Inferno_9E69E797.wem</Path>
+				</File>
+				<File Id="812943465" Language="SFX">
+					<ShortName>Nock and fire.wav</ShortName>
+					<Path>SFX\Nock and fire_F6C23EBA.wem</Path>
+				</File>
+				<File Id="818547509" Language="SFX">
+					<ShortName>Fireball_Start.wav</ShortName>
+					<Path>SFX\Fireball_Start_5A99E570.wem</Path>
+				</File>
+				<File Id="833082251" Language="SFX">
+					<ShortName>Sound Effects - Blood Gore Carnage and Tearing Flesh.wav</ShortName>
+					<Path>SFX\Sound Effects - Blood Gore Carnage and Tearing Flesh_E9D7723A.wem</Path>
+				</File>
+				<File Id="850359258" Language="SFX">
+					<ShortName>voice_male_02_death_03.wav</ShortName>
+					<Path>SFX\voice_male_02_death_03_9E69E797.wem</Path>
+				</File>
+				<File Id="851860679" Language="SFX">
+					<ShortName>Fireball_Explosion.wav</ShortName>
+					<Path>SFX\Fireball_Explosion_2F6FE3D1.wem</Path>
+				</File>
+				<File Id="929171571" Language="SFX">
+					<ShortName>Dark Growl.wav</ShortName>
+					<Path>SFX\Dark Growl_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -13,11 +13,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	4291080643	Lava_Big_Boiling_Sound			\Default Work Unit\Ambience\Objects\Lava\Lava_Big_Boiling_Sound	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	162283759	Boss	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\Boss_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Levels\Boss		7130400
-	528504272	Explosion_withRocks	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\Explosion_withRocks_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Temple_Door\Explosion_withRocks		1189356
-	619580904	Fire	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\Fire_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Levels\Fire		3565264
-	774867727	Lava Small	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\Lava Loop_97B67C52.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Lava\Lava Small		3480000
-	907726478	Main	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\Main_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Levels\Main		7130400
-	959521233	Unleveling Menu Music	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\Fireplace Crackle_84071BEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Start Menu\Unleveling Menu Music		15566544
-	1060023500	Pond	H:\UE4 Projects\Unlevelling-master\Unleveling_Wwise\.cache\Windows\SFX\River_Calm_02_1A5DCA8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Water\Pond		1979696
+	162283759	Boss	C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\.cache\Windows\SFX\Boss_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Levels\Boss		7130400
+	528504272	Explosion_withRocks	C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\.cache\Windows\SFX\Explosion_withRocks_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Temple_Door\Explosion_withRocks		1189356
+	619580904	Fire	C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\.cache\Windows\SFX\Fire_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Levels\Fire		3565264
+	774867727	Lava Small	C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\.cache\Windows\SFX\Lava Loop_97B67C52.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Lava\Lava Small		3480000
+	907726478	Main	C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\.cache\Windows\SFX\Main_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Levels\Main		7130400
+	959521233	Unleveling Menu Music	C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\.cache\Windows\SFX\Fireplace Crackle_84071BEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Start Menu\Unleveling Menu Music		15566544
+	1060023500	Pond	C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\.cache\Windows\SFX\River_Calm_02_1A5DCA8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Water\Pond		1979696
 

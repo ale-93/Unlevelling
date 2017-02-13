@@ -14,5 +14,9 @@
 				"GameplayTasks"
 			]
 		}
+	],
+	"TargetPlatforms": [
+		"LinuxNoEditor",
+		"WindowsNoEditor"
 	]
 }

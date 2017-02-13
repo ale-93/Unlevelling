@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	63796330	Main_Music			\Default Work Unit\Ambience\Music\Main_Music	
+	501754425	Temple_Door_Explosion			\Default Work Unit\Ambience\Objects\Temple_Door_Explosion	
+	624189772	Lake			\Default Work Unit\Ambience\Objects\Water\Lake	
+	753938028	Lava_Small_Boiling_Sound			\Default Work Unit\Ambience\Objects\Lava\Lava_Small_Boiling_Sound	
+	1362338037	Fountain			\Default Work Unit\Ambience\Objects\Water\Fountain	
+	1481037884	Lava_Medium_Boiling_Sound			\Default Work Unit\Ambience\Objects\Lava\Lava_Medium_Boiling_Sound	
+	1944232204	Pond			\Default Work Unit\Ambience\Objects\Water\Pond	
+	2985113282	Boss_Music			\Default Work Unit\Ambience\Music\Boss_Music	
+	3162848318	Ice_Music			\Default Work Unit\Ambience\Music\Ice_Music	
+	3335403133	Fire_Music			\Default Work Unit\Ambience\Music\Fire_Music	
+	4055567060	Menu_Music			\Default Work Unit\Ambience\Music\Menu_Music	
+	4291080643	Lava_Big_Boiling_Sound			\Default Work Unit\Ambience\Objects\Lava\Lava_Big_Boiling_Sound	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	38689894	Lava Small	C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\.cache\Linux\SFX\Lava Loop_97B67C52.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Lava\Lava Small		3480000
+	162283759	Boss	C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\.cache\Linux\SFX\Boss_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Levels\Boss		7130400
+	164819489	Pond	C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\.cache\Linux\SFX\River_Calm_02_1A5DCA8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Water\Pond		1979696
+	518421954	Fire	C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\.cache\Linux\SFX\Fire_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Levels\Fire		3565264
+	528504272	Explosion_withRocks	C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\.cache\Linux\SFX\Explosion_withRocks_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Temple_Door\Explosion_withRocks		1189356
+	907726478	Main	C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\.cache\Linux\SFX\Main_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Levels\Main		7130400
+	959521233	Unleveling Menu Music	C:\Users\feara\Documents\Unreal Projects\Unlevelling\Unleveling_Wwise\.cache\Linux\SFX\Fireplace Crackle_84071BEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Start Menu\Unleveling Menu Music		15566544
+
