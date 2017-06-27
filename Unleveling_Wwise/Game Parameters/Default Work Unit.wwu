@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5D8D2735-23A7-4150-96A2-3B34808DD42F}" SchemaVersion="75">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{5D8D2735-23A7-4150-96A2-3B34808DD42F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5D8D2735-23A7-4150-96A2-3B34808DD42F}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Player_Energy" ID="{27051DB3-0FAB-41EF-89C2-5D04CD0F4062}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="Max" Type="Real64" Value="250"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

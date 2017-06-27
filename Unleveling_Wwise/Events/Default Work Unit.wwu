@@ -5,33 +5,159 @@
 			<ChildrenList>
 				<Folder Name="Ambience" ID="{725F563D-B902-4646-B24E-647D149DC387}" ShortID="1028524405">
 					<ChildrenList>
-						<Event Name="Ambience_Music_Start" ID="{93FAD5D8-93B6-497F-8FDF-9D1989BAB523}">
+						<Folder Name="Music" ID="{F891125B-B488-4671-8BFB-2D23E22B2621}" ShortID="25243879">
 							<ChildrenList>
-								<Action Name="Play" ID="{719B2012-8873-49DA-BE25-682796F5FE37}" ShortID="121064795" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{244909B8-E82D-4956-B4A9-7B8B18EAE91C}" Global="false">
-											<ObjectRef Name="Epic Drums Loop" ID="{E95ADEB2-56B1-4A27-B244-AD0280CEC6C5}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
-										</Element>
-									</ElementList>
-								</Action>
+								<Event Name="Menu_Music" ID="{EB2D1DAF-1A2F-455F-9D8E-C2515CBFFE22}">
+									<ChildrenList>
+										<Action Name="Play" ID="{445A3BC2-CFCE-4C76-B4CF-285801F56C39}" ShortID="988825206" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{22F77201-B58B-4589-B132-065C1556E093}" Global="false">
+													<ObjectRef Name="Unleveling Menu Music" ID="{9187BD3F-33D3-46FA-84A4-D521066E4BAD}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Main_Music" ID="{1F56A399-5FAC-43F4-BDF0-3FE0833D82D8}">
+									<ChildrenList>
+										<Action Name="Play" ID="{569A96BC-F27A-4140-9F00-547DED0BC1C9}" ShortID="351268406" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{49216BE6-7440-48AA-993A-D9EA607894E8}" Global="false">
+													<ObjectRef Name="Main" ID="{38172310-6978-4DBA-A98C-2EC78D302C22}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Fire_Music" ID="{BB7480A9-2669-40B0-BD98-B5A072F4DF4A}">
+									<ChildrenList>
+										<Action Name="Play" ID="{64555879-46B8-4F92-ADFA-339B53B01959}" ShortID="117634000" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{C84752FD-F580-40D2-ABA7-178AC01ABF49}" Global="false">
+													<ObjectRef Name="Fire" ID="{B916716F-5869-4815-B873-A47554D132FA}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Ice_Music" ID="{DEBF2C78-9274-4243-855D-E246475A5B72}">
+									<ChildrenList>
+										<Action Name="Play" ID="{72B61873-E8E7-4847-A36A-353465E01796}" ShortID="208002319" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{8D7F8A25-9FB4-43F1-A7FC-8F25B2DEF75E}" Global="false">
+													<ObjectRef Name="Ice" ID="{7A5C1346-2079-4F6E-9614-18DE4707D467}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Boss_Music" ID="{4FC5E958-97F3-4A55-BAA9-F6B8E7105AC6}">
+									<ChildrenList>
+										<Action Name="Play" ID="{589EBE7F-D11E-4E5A-B139-757FECC90B10}" ShortID="297567339" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{88465D7D-AE08-4BFA-AD17-F8FFCCE0BB8A}" Global="false">
+													<ObjectRef Name="Boss" ID="{9C5742B4-E446-4490-A754-11B47939F1D4}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Menu_Music" ID="{EB2D1DAF-1A2F-455F-9D8E-C2515CBFFE22}">
+						</Folder>
+						<Folder Name="Objects" ID="{83A20C7C-A7EA-4D74-A691-7F9B6984F0A0}" ShortID="699846647">
 							<ChildrenList>
-								<Action Name="Play" ID="{445A3BC2-CFCE-4C76-B4CF-285801F56C39}" ShortID="988825206" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{22F77201-B58B-4589-B132-065C1556E093}" Global="false">
-											<ObjectRef Name="Unleveling Menu Music" ID="{9187BD3F-33D3-46FA-84A4-D521066E4BAD}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
-										</Element>
-									</ElementList>
-								</Action>
+								<Event Name="Temple_Door_Explosion" ID="{30557A43-EEC6-464F-99B3-226230EA5BDC}">
+									<ChildrenList>
+										<Action Name="Play" ID="{61D0202C-0BA8-4679-9022-519F617D3902}" ShortID="380749360" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{4A467FB3-878C-4293-AF11-251149B24C42}" Global="false">
+													<ObjectRef Name="Explosion_withRocks" ID="{6248805D-5388-4590-A8D7-77A5BEC76F18}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Folder Name="Lava" ID="{40EE6D80-2908-4049-9E40-EDE1EF771C11}" ShortID="990238037">
+									<ChildrenList>
+										<Event Name="Lava_Small_Boiling_Sound" ID="{E76EE3E2-D78C-465A-94C5-13D0D1A9E4A4}">
+											<ChildrenList>
+												<Action Name="Play" ID="{55798CDC-168D-4153-9F2D-0223E2F1F173}" ShortID="1011852137" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{1846C8DE-81B6-40E2-9C2B-BE0B775ACD10}" Global="false">
+															<ObjectRef Name="Lava Small" ID="{052C1A9E-CB4B-4580-A3BF-79A6C65DA006}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Lava_Big_Boiling_Sound" ID="{5E4FEAEA-737A-49D1-B41B-09D0B307E029}">
+											<ChildrenList>
+												<Action Name="Play" ID="{5AAC5C6D-3676-4EBD-9098-13ED112E1CC6}" ShortID="449159588" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{E760EB55-FE73-4938-B69A-F3EB1770EF89}" Global="false">
+															<ObjectRef Name="Lava Big" ID="{01402630-0088-43E1-9174-F9012146C7F9}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Lava_Medium_Boiling_Sound" ID="{641DB9A0-85A4-46A5-931E-101866BE5533}">
+											<ChildrenList>
+												<Action Name="Play" ID="{CC41B7EF-0D7B-45B3-B9B9-E1942369C406}" ShortID="614511368" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{7B88565F-2345-422C-B285-86086F688055}" Global="false">
+															<ObjectRef Name="Lava_Medium" ID="{930DF97E-41F3-4A91-B2BD-6FAC00EA4C33}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Water" ID="{8A14EFB9-7EDF-49A3-A0CB-2AA64FA0DA9C}" ShortID="464545616">
+									<ChildrenList>
+										<Event Name="Fountain" ID="{62FA0961-D440-4EE5-A38F-A59F48C49ADA}">
+											<ChildrenList>
+												<Action Name="Play" ID="{45BC7C61-42D3-44EE-97FA-F59DDC9D1508}" ShortID="306528449" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{F4F0D0AC-6156-4FAF-90D5-AF954AD525F5}" Global="false">
+															<ObjectRef Name="Fountain" ID="{7C2173AB-B65D-4060-B556-77DFEF482753}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Lake" ID="{F83F3AC2-9BE4-4AFA-A92E-C69B677738EB}">
+											<ChildrenList>
+												<Action Name="Play" ID="{240029E7-3C93-4FB5-B285-9EC50B0C1204}" ShortID="246300075" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{C6133E0A-54C1-43B1-8078-FF8CBF146CD6}" Global="false">
+															<ObjectRef Name="Lake" ID="{B01B2C1D-64BA-426B-9882-CF38493E559D}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Pond" ID="{AA3DEB71-1290-4113-82FD-D82E16E25F5C}">
+											<ChildrenList>
+												<Action Name="Play" ID="{67AD7BE9-9EC4-48EC-A4A7-3678BE4109EF}" ShortID="704087273" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{D3276566-6A55-4E75-AAEC-A2B01658E848}" Global="false">
+															<ObjectRef Name="Pond" ID="{BFD3A8A1-CAF7-4EB0-952A-38307F878FFE}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
-						</Event>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{5392CF96-8CF8-4DC6-A3C9-48228C88C9B1}" ShortID="268031670">
 					<ChildrenList>
-						<Folder Name="Animation" ID="{BC0BB4C8-692F-494D-BD0E-8EE61220EE56}" ShortID="229700249">
+						<Folder Name="Movement" ID="{BC0BB4C8-692F-494D-BD0E-8EE61220EE56}" ShortID="229700249">
 							<ChildrenList>
 								<Folder Name="Jump" ID="{3EAD7A6B-4D02-4C23-850F-65467020D070}" ShortID="393442603">
 									<ChildrenList>
@@ -59,83 +185,12 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
-								<Folder Name="Movement" ID="{50F040C5-CEA0-45E3-988E-7ABA417A91B5}" ShortID="668974446">
+								<Event Name="Footsteps_Sound" ID="{6C491A88-57DF-4268-9CAC-15DD261F30C4}">
 									<ChildrenList>
-										<Event Name="Footsteps_Sound" ID="{6C491A88-57DF-4268-9CAC-15DD261F30C4}">
-											<ChildrenList>
-												<Action Name="Play" ID="{C25D9395-E902-4A05-A473-833BFB0DB8A0}" ShortID="900651490" Type="Play" Scope="One" Global="false">
-													<ElementList>
-														<Element ID="{DDC199E6-88EE-4374-A469-6DB32A1826A1}" Global="false">
-															<ObjectRef Name="Footsteps" ID="{34D1B56E-8459-40F7-9B11-8AF20E42FF4F}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
-														</Element>
-													</ElementList>
-												</Action>
-											</ChildrenList>
-										</Event>
-									</ChildrenList>
-								</Folder>
-								<Folder Name="Hit" ID="{5AD3556F-C0D2-40EC-A5C0-671ECDA2F345}" ShortID="163415622">
-									<ChildrenList>
-										<Event Name="Player_Hit_Sound" ID="{F0D399C1-C58F-4076-B652-961A543F144D}">
-											<ChildrenList>
-												<Action Name="Play" ID="{A04E822F-FBB0-4681-9EE6-D2D6B3C5D331}" ShortID="619779268" Type="Play" Scope="One" Global="false">
-													<ElementList>
-														<Element ID="{E943791E-3155-43F7-A80B-6170E1B5CF84}" Global="false">
-															<ObjectRef Name="Player_Hit_Sound" ID="{AE601331-50B0-4BA9-B9A1-2C932939DF55}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
-														</Element>
-													</ElementList>
-												</Action>
-											</ChildrenList>
-										</Event>
-									</ChildrenList>
-								</Folder>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="Weapon" ID="{7C39698A-5772-4A67-9C71-E94F88DD15F1}" ShortID="947426889">
-							<ChildrenList>
-								<Event Name="Greatsword_Hit_Sound" ID="{8A929121-339D-4538-BCEF-034B73C970AD}">
-									<ChildrenList>
-										<Action Name="Play" ID="{4DB170CF-3DD8-4EAF-8CCC-C9AC170F4CD1}" ShortID="772760387" Type="Play" Scope="One" Global="false">
+										<Action Name="Play" ID="{C25D9395-E902-4A05-A473-833BFB0DB8A0}" ShortID="900651490" Type="Play" Scope="One" Global="false">
 											<ElementList>
-												<Element ID="{A8450D74-EBF4-4F4C-B94A-3DAF910E0F93}" Global="false">
-													<ObjectRef Name="Sword Hit" ID="{738F81B5-82DA-48E0-A5D8-5F3DA4F53A48}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
-												</Element>
-											</ElementList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Greatsword_Miss_Sound" ID="{5997E446-B755-41AD-AF39-6773A30B70B0}">
-									<ChildrenList>
-										<Action Name="Play" ID="{D37D718C-D6D7-4D47-971D-E6132A19597C}" ShortID="892075198" Type="Play" Scope="One" Global="false">
-											<ElementList>
-												<Element ID="{B7486BA9-2059-4127-8647-9B7F4975168A}" Global="false">
-													<ObjectRef Name="Sword Miss" ID="{42E50504-FD50-4E63-B7A8-C1A5D18E2D84}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
-												</Element>
-											</ElementList>
-										</Action>
-									</ChildrenList>
-								</Event>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="Fireball" ID="{F80C21FC-E79E-4C56-9FF8-EF92C9833AB8}" ShortID="550033901">
-							<ChildrenList>
-								<Event Name="Fireball_Cast_Sound" ID="{E5BB9A6F-F7E9-4CFC-8CEF-4896648F6EA5}">
-									<ChildrenList>
-										<Action Name="Play" ID="{EFA03EC2-90F5-431C-9210-8D255129463F}" ShortID="313945350" Type="Play" Scope="One" Global="false">
-											<ElementList>
-												<Element ID="{6581FD1C-8FC5-47F5-9F13-396015F0322C}" Global="false">
-													<ObjectRef Name="Fireball_Start" ID="{DA3A1339-4962-4D60-B156-37E1DA527F4E}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
-												</Element>
-											</ElementList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Fireball_Explosion_Sound" ID="{552BBE68-F841-4938-9D30-6F48EBF271FD}">
-									<ChildrenList>
-										<Action Name="Play" ID="{DDD70A5B-68B6-4B6A-ADA5-82D3F88D1E01}" ShortID="111312730" Type="Play" Scope="One" Global="false">
-											<ElementList>
-												<Element ID="{2C93CF7A-AF1A-45AD-ABE1-B8DAE664FE7A}" Global="false">
-													<ObjectRef Name="Fireball_Explosion" ID="{728FE383-802F-4C31-9A6C-6E92F083CBEB}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+												<Element ID="{A61F23D4-CF6B-43F7-A558-EE934071C801}" Global="false">
+													<ObjectRef Name="Footsteps" ID="{D7FC305B-972F-4C29-BD8E-ABC17941CC80}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
 												</Element>
 											</ElementList>
 										</Action>
@@ -189,6 +244,212 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Attack" ID="{AD4CBB60-591F-47BE-8582-9A998E96080A}" ShortID="536191923">
+							<ChildrenList>
+								<Folder Name="Greatsword" ID="{7C39698A-5772-4A67-9C71-E94F88DD15F1}" ShortID="947426889">
+									<ChildrenList>
+										<Event Name="Greatsword_Hit_Sound" ID="{8A929121-339D-4538-BCEF-034B73C970AD}">
+											<ChildrenList>
+												<Action Name="Play" ID="{4DB170CF-3DD8-4EAF-8CCC-C9AC170F4CD1}" ShortID="772760387" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{A8450D74-EBF4-4F4C-B94A-3DAF910E0F93}" Global="false">
+															<ObjectRef Name="Sword Hit" ID="{738F81B5-82DA-48E0-A5D8-5F3DA4F53A48}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Greatsword_Miss_Sound" ID="{5997E446-B755-41AD-AF39-6773A30B70B0}">
+											<ChildrenList>
+												<Action Name="Play" ID="{D37D718C-D6D7-4D47-971D-E6132A19597C}" ShortID="892075198" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{B7486BA9-2059-4127-8647-9B7F4975168A}" Global="false">
+															<ObjectRef Name="Sword Miss" ID="{42E50504-FD50-4E63-B7A8-C1A5D18E2D84}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Fireball" ID="{F80C21FC-E79E-4C56-9FF8-EF92C9833AB8}" ShortID="550033901">
+									<ChildrenList>
+										<Event Name="Fireball_Cast_Sound" ID="{E5BB9A6F-F7E9-4CFC-8CEF-4896648F6EA5}">
+											<ChildrenList>
+												<Action Name="Play" ID="{EFA03EC2-90F5-431C-9210-8D255129463F}" ShortID="313945350" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{6581FD1C-8FC5-47F5-9F13-396015F0322C}" Global="false">
+															<ObjectRef Name="Fireball_Start" ID="{DA3A1339-4962-4D60-B156-37E1DA527F4E}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Fireball_Explosion_Sound" ID="{552BBE68-F841-4938-9D30-6F48EBF271FD}">
+											<ChildrenList>
+												<Action Name="Play" ID="{DDD70A5B-68B6-4B6A-ADA5-82D3F88D1E01}" ShortID="111312730" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{2C93CF7A-AF1A-45AD-ABE1-B8DAE664FE7A}" Global="false">
+															<ObjectRef Name="Fireball_Explosion" ID="{728FE383-802F-4C31-9A6C-6E92F083CBEB}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Bow" ID="{E74A2A0F-2A58-493F-8FF6-362E0AAE88BB}" ShortID="904511456">
+									<ChildrenList>
+										<Event Name="Bow_Nock" ID="{261C1A08-364A-43DF-A6B2-55D10F1437D4}">
+											<ChildrenList>
+												<Action Name="Play" ID="{25A13D98-E1AF-4A8E-BB6C-A226E7C58FCE}" ShortID="67563769" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{F9336A63-0666-42B7-9E36-9881BA241290}" Global="false">
+															<ObjectRef Name="Bow_Nock" ID="{B84CF3D8-C457-4B4F-ACB8-9D2A5AE37F63}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Bow_Release" ID="{C5B359C8-38C0-4A7B-AEA9-FBEEAD4CBF19}">
+											<ChildrenList>
+												<Action Name="Play" ID="{C4C8F249-C5F3-4CBE-956C-37AEE6F2CE24}" ShortID="1029435828" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{BF8D3A53-BCEF-49BF-9C51-8AFA76F79646}" Global="false">
+															<ObjectRef Name="Bow_Release" ID="{433039B2-FBED-4C03-BF6E-B3138A5711B9}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Holy Blessing" ID="{B5A7923D-9D82-44C2-BCD8-44EDF801EEB6}" ShortID="877625895">
+									<ChildrenList>
+										<Event Name="Holy_Blessing_Sound" ID="{3F3E80BF-DB33-4C67-B243-9E378C68F919}">
+											<ChildrenList>
+												<Action Name="Play" ID="{08663FA7-1062-4552-B821-FBBDCA23043F}" ShortID="985818434" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{E85ECD16-4F26-4CC8-A100-572788ECF54C}" Global="false">
+															<ObjectRef Name="Holy_Blessing_Sound" ID="{C12DB648-B16A-4886-B876-D5042F67250F}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Status" ID="{B757FB9A-9EA7-4ACC-AAD6-12ADEF6B812E}" ShortID="1018391978">
+							<ChildrenList>
+								<Event Name="Player_Death_Sound" ID="{FE40E06E-258C-422F-981D-13377092DDDC}">
+									<ChildrenList>
+										<Action Name="Play" ID="{C4CB9E7E-7CE9-40AB-88F3-D20CFDBD022E}" ShortID="419745394" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{178B7CD6-A5C8-4C84-A182-65F01AF8517B}" Global="false">
+													<ObjectRef Name="Player_Death_Sound" ID="{171C4023-3E28-49EE-94D5-0A359C46F96E}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Player_Hit_Sound" ID="{F0D399C1-C58F-4076-B652-961A543F144D}">
+									<ChildrenList>
+										<Action Name="Play" ID="{A04E822F-FBB0-4681-9EE6-D2D6B3C5D331}" ShortID="619779268" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{6F46B4DA-0650-4AA1-B164-035A12C45C33}" Global="false">
+													<ObjectRef Name="Player_Hit_Sound" ID="{560AAECF-BB67-4E7A-A20A-F575F6388431}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Player_Energy_Level" ID="{45A633BB-D0FF-49E5-BA28-27735F2A7C6B}">
+									<ChildrenList>
+										<Action Name="Play" ID="{7A8A61C5-868C-405C-B445-53EB3C48F20A}" ShortID="830525856" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{8C80F604-4850-46D4-BC45-D26E79022DA2}" Global="false">
+													<ObjectRef Name="Player_Low_Energy" ID="{2EC65116-407F-485D-9A43-D3B8B07EA2C1}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="NPCs" ID="{392EDC1A-D8A0-44EC-91E9-2703D80E1993}" ShortID="78758668">
+					<ChildrenList>
+						<Folder Name="Elementals" ID="{E6B12C00-57A0-44E0-9D6A-37B962C7D8CE}" ShortID="517653968">
+							<ChildrenList>
+								<Folder Name="Movement" ID="{D5B5B6F9-B88B-4815-96F2-86544F5358E4}" ShortID="796296310">
+									<ChildrenList>
+										<Event Name="Elem_Footstep_Sound" ID="{380AC4F9-1146-49EC-A510-C9CD34C17BF7}">
+											<ChildrenList>
+												<Action Name="Play" ID="{96EA5047-FE8D-403B-B8D7-865D40E3450B}" ShortID="155687776" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{11E157C6-24AA-4C04-8C0C-4F050D9796F2}" Global="false">
+															<ObjectRef Name="Elemental_Footstep" ID="{DEDB5F4A-55AB-4765-97E3-A7E8F1BB6CA5}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Status" ID="{6DE39E63-2FE7-4B7E-A48D-6F18A9DF52E1}" ShortID="381408290">
+									<ChildrenList>
+										<Event Name="Elem_Death_Sound" ID="{1DD45FE1-61FB-4C0D-AA63-7FB09F420DE2}">
+											<ChildrenList>
+												<Action Name="Play" ID="{BFC17172-3698-41A8-9B2B-93380D28544E}" ShortID="16220110" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{9F2D15F0-A328-486D-BA57-8C1619CA288E}" Global="false">
+															<ObjectRef Name="Elemental_Death" ID="{37B39645-DF88-46D7-90F8-B2F5C74E7ACA}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Human" ID="{DDBB4B9D-B1CB-4797-B3BE-C58132A87E5A}" ShortID="282116889">
+							<ChildrenList>
+								<Folder Name="Movement" ID="{ECFC5BEE-95A4-4966-A65C-7385466EF17B}" ShortID="439393115">
+									<ChildrenList>
+										<Event Name="Human_AI_Footstep" ID="{832B233C-8F60-482E-A79E-5D4343FE36C9}">
+											<ChildrenList>
+												<Action Name="Play" ID="{72BCE8D4-82E3-4D3D-ADBB-D6D85593B14F}" ShortID="1041541593" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{6414E6E3-1F96-42C1-8025-A0D7B705E4F5}" Global="false">
+															<ObjectRef Name="Human_AI_Footstep" ID="{CB237C10-B9E2-46CF-9C56-9D8888199FDF}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Status" ID="{FD1D94A1-0297-487E-A9C0-D289DB8D01E3}" ShortID="447123816">
+									<ChildrenList>
+										<Event Name="Human_AI_Death_Sound" ID="{E9975CCD-03EC-4F88-AC2B-8E83872EBCA6}">
+											<ChildrenList>
+												<Action Name="Play" ID="{03E9CC20-7E0F-4A63-8762-35455844CEFD}" ShortID="142809617" Type="Play" Scope="One" Global="false">
+													<ElementList>
+														<Element ID="{DBF5738A-B312-43B3-88A1-7F5430F4EDC2}" Global="false">
+															<ObjectRef Name="Human_AI_Death" ID="{63383EE5-4B18-4A1E-9EFD-CC48C0FE1AE8}" WorkUnitID="{7B42AC06-8004-41DA-A59F-523AA7CA84E6}"/>
+														</Element>
+													</ElementList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

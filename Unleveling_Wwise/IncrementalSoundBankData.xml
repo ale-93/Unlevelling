@@ -3,14 +3,15 @@
 	<Platform GUID="{BE82E7F1-459E-48EE-AF91-B80FDD98C607}">
 		<Banks>
 			<Language ID="0">
-				<File Name="Ambience" Hash="3052947288" Timestamp="131259734632050908"/>
-				<File Name="Init" Hash="3806675398" Timestamp="131259734632722848"/>
-				<File Name="Player" Hash="1341921176" Timestamp="131259770387510796"/>
+				<File Name="Ambience" Hash="3544471069" Timestamp="131284629659472943"/>
+				<File Name="Init" Hash="442215715" Timestamp="131284629660379290"/>
+				<File Name="NPCs" Hash="3038473179" Timestamp="131284629618861868"/>
+				<File Name="Player" Hash="1209423896" Timestamp="131284629635147511"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3377538174" Timestamp="131259770387616030"/>
+				<File Name="" Hash="2705312545" Timestamp="131284629660768451"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
